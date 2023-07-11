@@ -1,0 +1,5 @@
+{
+  "**/*.{scss,vue}": "stylelint --fix",
+  "**/*.{vue,ts}": "bash -c vue-tsc --noEmit",
+  "**/*": "prettier --write --ignore-unknown"
+}
