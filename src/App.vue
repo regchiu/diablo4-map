@@ -3,8 +3,10 @@
 </template>
 
 <script setup lang="ts">
-import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
+import 'leaflet-fullscreen'
+import 'leaflet/dist/leaflet.css'
+import 'leaflet-fullscreen/dist/leaflet.fullscreen.css'
 import { onMounted } from 'vue'
 import { markers } from './data/markers'
 import type { Markers } from './data/markers'
@@ -29,7 +31,8 @@ onMounted(() => {
     maxZoom: 5,
     zoom: 3,
     crs: L.CRS.Simple,
-    center: L.latLng(MAP_LAT / 2, MAP_LNG / 2)
+    center: L.latLng(MAP_LAT / 2, MAP_LNG / 2),
+    fullscreenControl: true
   })
 
   L.tileLayer(
