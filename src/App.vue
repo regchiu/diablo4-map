@@ -32,11 +32,16 @@ onMounted(() => {
     center: L.latLng(MAP_LAT / 2, MAP_LNG / 2)
   })
 
-  L.tileLayer('/map-tiles/z{z}x{x}y{y}.webp', {
-    bounds,
-    maxNativeZoom: 5,
-    tileSize: 512
-  }).addTo(map)
+  L.tileLayer(
+    import.meta.env.PROD
+      ? '/diablo4-map/map-tiles/z{z}x{x}y{y}.webp'
+      : '/map-tiles/z{z}x{x}y{y}.webp',
+    {
+      bounds,
+      maxNativeZoom: 5,
+      tileSize: 512
+    }
+  ).addTo(map)
 
   for (const key of Object.keys(markers)) {
     for (const coord of markers[key as keyof Markers].coordinates) {
