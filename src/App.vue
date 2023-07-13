@@ -34,6 +34,42 @@ function onClick(e: L.LeafletMouseEvent) {
   console.log(`${e.latlng.lat}, ${e.latlng.lng}`)
 }
 
+function hideAllControl() {
+  const hideAllControl = L.control.zoom({ position: 'topright' })
+  hideAllControl.onAdd = function () {
+    const button = L.DomUtil.create('button')
+    button.innerHTML = '隱藏全部'
+    L.DomEvent.addListener(button, 'click', function (e: Event) {
+      L.DomEvent.stop(e)
+      for (const key of Object.keys(group)) {
+        if (map.hasLayer(group[key as MarkerName])) {
+          map.removeLayer(group[key as MarkerName])
+        }
+      }
+    })
+    return button
+  }
+  return hideAllControl
+}
+
+function showAllControl() {
+  const showAllControl = L.control.zoom({ position: 'topright' })
+  showAllControl.onAdd = function () {
+    const button = L.DomUtil.create('button')
+    button.innerHTML = '顯示全部'
+    L.DomEvent.addListener(button, 'click', function (e: Event) {
+      L.DomEvent.stop(e)
+      for (const key of Object.keys(group)) {
+        if (!map.hasLayer(group[key as MarkerName])) {
+          map.addLayer(group[key as MarkerName])
+        }
+      }
+    })
+    return button
+  }
+  return showAllControl
+}
+
 onMounted(() => {
   map = L.map('map', {
     maxBounds: bounds,
@@ -102,8 +138,9 @@ onMounted(() => {
       .addTo(map)
   }
 
+  hideAllControl().addTo(map)
+  showAllControl().addTo(map)
   const layerControl = L.control.layers({}, {}).addTo(map)
-
   for (const key of Object.keys(group)) {
     layerControl.addOverlay(
       group[key as MarkerName],
