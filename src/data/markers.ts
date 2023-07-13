@@ -31,6 +31,7 @@ export type MarkerCoordinate = {
 
 export type Markers = {
   [K in MarkerName]: {
+    text: string
     icon: Icon
     coordinates: Array<MarkerCoordinate>
   }
@@ -38,6 +39,7 @@ export type Markers = {
 
 export const markers: Markers = {
   altarOfLilith: {
+    text: '莉莉絲的祭壇',
     icon: {
       url: altarOfLilithUrl,
       width: 30,
@@ -1007,6 +1009,7 @@ export const markers: Markers = {
     ]
   },
   worldBoss: {
+    text: '世界首領',
     icon: {
       url: worldBossIconUrl,
       width: 30,
@@ -1041,6 +1044,7 @@ export const markers: Markers = {
     ]
   },
   waypoint: {
+    text: '傳送平台',
     icon: {
       url: waypointIconUrl,
       width: 30,
@@ -1225,6 +1229,7 @@ export const markers: Markers = {
     ]
   },
   dungeon: {
+    text: '地城',
     icon: {
       url: dungeonIconUrl,
       width: 30,
@@ -2024,6 +2029,7 @@ export const markers: Markers = {
     ]
   },
   mysteriousChest: {
+    text: '神秘苦痛贈禮',
     icon: {
       url: mysteriousChestIconUrl,
       width: 30,
@@ -2060,6 +2066,7 @@ export const markers: Markers = {
     ]
   },
   sideQuest: {
+    text: '支線任務',
     icon: {
       url: sideQuestIconUrl,
       width: 30,
@@ -3054,6 +3061,7 @@ export const markers: Markers = {
     ]
   },
   stronghold: {
+    text: '據點',
     icon: {
       url: strongholdIconUrl,
       width: 30,
