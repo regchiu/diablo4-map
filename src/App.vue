@@ -30,10 +30,6 @@ const group: Record<MarkerName, L.LayerGroup> = {
   stronghold: L.layerGroup([])
 }
 
-function onClick(e: L.LeafletMouseEvent) {
-  console.log(`${e.latlng.lat}, ${e.latlng.lng}`)
-}
-
 function hideAllControl() {
   const hideAllControl = L.control.zoom({ position: 'topright' })
   hideAllControl.onAdd = function () {
@@ -68,6 +64,56 @@ function showAllControl() {
     return button
   }
   return showAllControl
+}
+
+function closeList() {
+  const suggestions = document.getElementById('suggestions')
+  if (suggestions && suggestions.parentNode) {
+    suggestions.parentNode.removeChild(suggestions)
+  }
+}
+
+function searchControl() {
+  const searchControl = L.control.zoom({ position: 'topleft' })
+  searchControl.onAdd = function () {
+    const input = L.DomUtil.create('input')
+    input.placeholder = '搜尋區域'
+    const div = L.DomUtil.create('div')
+    div.appendChild(input)
+    L.DomEvent.addListener(input, 'input', function (e: Event) {
+      closeList()
+      const value = (e as InputEvent).data
+      if (!value) {
+        return
+      }
+      const suggestions = L.DomUtil.create('div')
+      suggestions.setAttribute('id', 'suggestions')
+      suggestions.setAttribute('class', 'autocomplete-items')
+      div.appendChild(suggestions)
+      for (let i = 0; i < regions.length; i++) {
+        if (
+          regions[i].name.slice(0, value.length).toUpperCase() ===
+          value.toUpperCase()
+        ) {
+          const suggestion = L.DomUtil.create('div')
+          suggestion.innerHTML = `<strong>${regions[i].name.slice(
+            0,
+            value.length
+          )}</strong>`
+          suggestion.innerHTML += regions[i].name.slice(value.length)
+          suggestion.innerHTML += `<input type="hidden" value="${regions[i].name}">`
+          suggestion.addEventListener('click', function () {
+            input.value = suggestion.getElementsByTagName('input')[0].value
+            map.setView(regions[i].coordinates[0], 5)
+            closeList()
+          })
+          suggestions.appendChild(suggestion)
+        }
+      }
+    })
+    return div
+  }
+  return searchControl
 }
 
 onMounted(() => {
@@ -138,6 +184,7 @@ onMounted(() => {
       .addTo(map)
   }
 
+  searchControl().addTo(map)
   hideAllControl().addTo(map)
   showAllControl().addTo(map)
   const layerControl = L.control.layers({}, {}).addTo(map)
@@ -151,8 +198,6 @@ onMounted(() => {
       }</span>`
     )
   }
-
-  map.on('click', onClick)
 })
 </script>
 
@@ -180,5 +225,21 @@ onMounted(() => {
 
 .marker-category-text {
   vertical-align: middle;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+  background-color: dodgerblue !important;
+  color: #fff;
 }
 </style>
