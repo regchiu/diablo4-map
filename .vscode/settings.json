@@ -5,5 +5,7 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "stylelint.validate": ["scss", "vue"],
-  "cSpell.words": ["Diablo"]
+  "cSpell.words": ["Diablo"],
+  "i18n-ally.localesPaths": ["src/locales"],
+  "i18n-ally.keystyle": "nested"
 }

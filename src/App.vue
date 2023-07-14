@@ -11,6 +11,8 @@ import { onMounted } from 'vue'
 import { markers } from './data/markers'
 import type { Markers, MarkerName } from './data/markers'
 import { regions } from './data/regions'
+import { locales } from './i18n'
+import { useI18n } from 'vue-i18n'
 
 const MAP_LAT = -158
 const MAP_LNG = 158
@@ -30,11 +32,13 @@ const group: Record<MarkerName, L.LayerGroup> = {
   stronghold: L.layerGroup([])
 }
 
+const { locale, t } = useI18n()
+
 function hideAllControl() {
   const hideAllControl = L.control.zoom({ position: 'topright' })
   hideAllControl.onAdd = function () {
     const button = L.DomUtil.create('button')
-    button.innerHTML = '隱藏全部'
+    button.innerHTML = t('hideAll')
     L.DomEvent.addListener(button, 'click', function (e: Event) {
       L.DomEvent.stop(e)
       for (const key of Object.keys(group)) {
@@ -52,7 +56,7 @@ function showAllControl() {
   const showAllControl = L.control.zoom({ position: 'topright' })
   showAllControl.onAdd = function () {
     const button = L.DomUtil.create('button')
-    button.innerHTML = '顯示全部'
+    button.innerHTML = t('showAll')
     L.DomEvent.addListener(button, 'click', function (e: Event) {
       L.DomEvent.stop(e)
       for (const key of Object.keys(group)) {
@@ -77,7 +81,7 @@ function searchControl() {
   const searchControl = L.control.zoom({ position: 'topleft' })
   searchControl.onAdd = function () {
     const input = L.DomUtil.create('input')
-    input.placeholder = '搜尋區域'
+    input.placeholder = t('searchRegions')
     const div = L.DomUtil.create('div')
     div.appendChild(input)
     L.DomEvent.addListener(input, 'input', function (e: Event) {
@@ -92,16 +96,18 @@ function searchControl() {
       div.appendChild(suggestions)
       for (let i = 0; i < regions.length; i++) {
         if (
-          regions[i].name.slice(0, value.length).toUpperCase() ===
+          t(regions[i].name).slice(0, value.length).toUpperCase() ===
           value.toUpperCase()
         ) {
           const suggestion = L.DomUtil.create('div')
-          suggestion.innerHTML = `<strong>${regions[i].name.slice(
+          suggestion.innerHTML = `<strong>${t(regions[i].name).slice(
             0,
             value.length
           )}</strong>`
-          suggestion.innerHTML += regions[i].name.slice(value.length)
-          suggestion.innerHTML += `<input type="hidden" value="${regions[i].name}">`
+          suggestion.innerHTML += t(regions[i].name).slice(value.length)
+          suggestion.innerHTML += `<input type="hidden" value="${t(
+            regions[i].name
+          )}">`
           suggestion.addEventListener('click', function () {
             input.value = suggestion.getElementsByTagName('input')[0].value
             map.setView(regions[i].coordinates[0], 5)
@@ -116,7 +122,47 @@ function searchControl() {
   return searchControl
 }
 
-onMounted(() => {
+function layerControl() {
+  const layerControl = L.control.layers({}, {})
+  for (const key of Object.keys(group)) {
+    layerControl.addOverlay(
+      group[key as MarkerName],
+      `<img class="marker-category-icon" src="${
+        markers[key as MarkerName].icon.url
+      }" /> <span class="marker-category-text">${t(
+        markers[key as MarkerName].text
+      )}</span>`
+    )
+  }
+  return layerControl
+}
+
+function localeControl() {
+  const localeControl = L.control.zoom({ position: 'topright' })
+  localeControl.onAdd = function () {
+    const select = L.DomUtil.create('select')
+    for (const locale of locales) {
+      const option = L.DomUtil.create('option')
+      option.text = locale.label
+      option.value = locale.value
+      select.add(option)
+    }
+    select.value = locale.value
+
+    L.DomEvent.addListener(select, 'input', function (e: Event) {
+      locale.value = (e.target as HTMLSelectElement).value
+
+      map.stop()
+      map.remove()
+      initMap()
+    })
+
+    return select
+  }
+  return localeControl
+}
+
+function initMap() {
   map = L.map('map', {
     maxBounds: bounds,
     minZoom: 3,
@@ -155,9 +201,9 @@ onMounted(() => {
             ]
           })
         }).bindTooltip(
-          coord.name +
-            (coord.reward ? ` / ${coord.reward}` : '') +
-            (coord.job ? ` / (${coord.job})` : '')
+          t(coord.name) +
+            (coord.reward ? ` / ${t(coord.reward)}` : '') +
+            (coord.job ? ` / (${t(coord.job)})` : '')
         )
       )
     }
@@ -165,7 +211,7 @@ onMounted(() => {
 
   for (const region of regions) {
     L.polygon(region.coordinates, { color: '#988f7b' })
-      .bindTooltip(region.name, {
+      .bindTooltip(t(region.name), {
         permanent: true,
         direction: 'center',
         className: 'region-label'
@@ -185,19 +231,14 @@ onMounted(() => {
   }
 
   searchControl().addTo(map)
+  localeControl().addTo(map)
   hideAllControl().addTo(map)
   showAllControl().addTo(map)
-  const layerControl = L.control.layers({}, {}).addTo(map)
-  for (const key of Object.keys(group)) {
-    layerControl.addOverlay(
-      group[key as MarkerName],
-      `<img class="marker-category-icon" src="${
-        markers[key as MarkerName].icon.url
-      }" /> <span class="marker-category-text">${
-        markers[key as MarkerName].text
-      }</span>`
-    )
-  }
+  layerControl().addTo(map)
+}
+
+onMounted(() => {
+  initMap()
 })
 </script>
 

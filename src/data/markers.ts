@@ -39,7 +39,7 @@ export type Markers = {
 
 export const markers: Markers = {
   altarOfLilith: {
-    text: '莉莉絲的祭壇',
+    text: 'markers.altarOfLilith',
     icon: {
       url: altarOfLilithUrl,
       width: 30,
@@ -47,969 +47,969 @@ export const markers: Markers = {
     },
     coordinates: [
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -114.91141387650654,
         lng: 45.04022711154826
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -108.89888919105931,
         lng: 47.44548306982742
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -104.88177982642817,
         lng: 34.08370922170646
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -114.19443486123012,
         lng: 31.598486204982393
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -126.12276556888946,
         lng: 29.623579672463265
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -123.82832666237854,
         lng: 36.043329233660955
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -119.30152202128372,
         lng: 33.54314368813762
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -118.4199769222939,
         lng: 28.16166991966236
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -96.3357741286249,
         lng: 27.662899323822217
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -108.89479418826014,
         lng: 19.70557320571868
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -110.81705920727521,
         lng: 23.02274816823825
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -99.74202102533658,
         lng: 21.671731960573652
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -106.31715195866701,
         lng: 29.044635841600268
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -121.31096051715306,
         lng: 38.56201176360541
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -123.72568644833316,
         lng: 49.994355741542066
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -124.51160292080422,
         lng: 46.637418153276414
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -116.16616397880496,
         lng: 47.47237438635054
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -37.25516543426642,
         lng: 110.75709683397824
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -17.73764558212372,
         lng: 82.96452358110356
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -21.81821275991613,
         lng: 88.24117128659337
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -31.49037368794313,
         lng: 73.7749389642304
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -25.31516838769719,
         lng: 77.97357770504856
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -35.863483152036,
         lng: 69.50472749706927
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -45.695761635555755,
         lng: 70.40851725337937
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -47.16598548226523,
         lng: 60.726612422175975
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -48.94265694852129,
         lng: 102.21131330862947
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -52.71686488812248,
         lng: 97.05192116839532
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -53.330673401221205,
         lng: 91.19635908583933
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -39.592528219039146,
         lng: 79.18672068966323
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -43.837101731960914,
         lng: 80.88022564708744
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -52.44311837006568,
         lng: 89.36059228963468
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -24.92001534780312,
         lng: 90.89810993894683
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -32.28118059541177,
         lng: 94.32376323526111
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -39.8795319404026,
         lng: 91.03015131022069
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -15.433838251942781,
         lng: 81.89299445173866
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -35.340560132717414,
         lng: 102.2853307001109
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -36.30553723118389,
         lng: 109.33701147270284
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -41.63893958190819,
         lng: 96.96394267720751
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -54.441155671091295,
         lng: 71.84032522580065
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -49.33097516359948,
         lng: 76.86281611828088
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -56.405843740687686,
         lng: 78.86237547876254
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -46.116250663991465,
         lng: 106.88448217048114
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -44.27585624050803,
         lng: 119.45447905170855
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -47.496325528215614,
         lng: 119.28880144443319
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -52.53983703330078,
         lng: 124.31821397917292
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -59.364998820994934,
         lng: 110.78984945607428
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -56.31257195031234,
         lng: 115.3648782668252
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -49.99427723570977,
         lng: 117.72745567347023
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -52.39512729409554,
         lng: 110.73612573062178
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -55.64688358160684,
         lng: 102.61739280578598
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -82.24755039779146,
         lng: 113.88193850307414
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -87.00423494422392,
         lng: 119.57359020616573
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -92.03678716124223,
         lng: 116.35853155732146
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -78.52192274319626,
         lng: 115.8652982752889
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -81.03210053818435,
         lng: 121.19010293862678
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -80.11641077556689,
         lng: 113.62454177241115
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -71.95669052166815,
         lng: 105.85545486996926
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -68.00784102384044,
         lng: 107.43950951830277
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -74.7805042864402,
         lng: 111.59985832321732
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -64.01468300651669,
         lng: 98.99207222063265
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -87.07974208216834,
         lng: 106.3241825930235
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -90.40235075624084,
         lng: 101.70883153438635
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -80.58020666813772,
         lng: 101.80305423050615
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -69.67500799078343,
         lng: 89.67268472104617
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -85.34463931339162,
         lng: 84.93589565800079
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -78.99190533064353,
         lng: 95.26451750661664
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -79.76848283989634,
         lng: 89.88743235387189
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -79.73778504912846,
         lng: 97.04759146025853
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -83.227287182606,
         lng: 99.32516520919748
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -88.6732873800816,
         lng: 87.08734824883253
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -74.19863090308466,
         lng: 66.13960175327959
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -79.30819274108883,
         lng: 72.59893721744227
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -78.16869192620302,
         lng: 67.30558920913909
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -74.151140654795,
         lng: 62.2955278189291
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -57.3045642830726,
         lng: 67.9799633417927
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -68.72190345438938,
         lng: 57.18314393846589
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -61.80503128026486,
         lng: 64.88563580623229
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -60.652538406138525,
         lng: 60.40047052966753
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -58.48324749884255,
         lng: 61.98579169126555
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -80.9391528127787,
         lng: 71.21151611687236
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -82.29845805848905,
         lng: 76.49782466772865
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -69.49459218400557,
         lng: 60.58181755686651
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -90.17588826331115,
         lng: 74.52135708397654
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -86.81884032109309,
         lng: 48.585668999647226
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -82.63492587841228,
         lng: 57.72046955438134
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -76.37561098829849,
         lng: 57.65428687286173
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -87.64337944586427,
         lng: 58.28692497538039
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 1 顛峰點數',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.oneParagonPoints',
         lat: -80.97665596791067,
         lng: 52.17879658484462
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -69.33739121324028,
         lng: 78.96269511083008
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -62.95935070240233,
         lng: 77.22212298604124
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 1 顛峰點數',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.oneParagonPoints',
         lat: -71.1866532327133,
         lng: 74.34760913636458
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -66.44095743479946,
         lng: 46.711671175132636
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 1 顛峰點數',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.oneParagonPoints',
         lat: -71.65083211115743,
         lng: 50.47789872441132
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -67.76735535585749,
         lng: 54.005697788197764
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -62.14836338545577,
         lng: 39.16351720285472
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -71.22291904886997,
         lng: 30.085120669086365
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -79.98749183852249,
         lng: 30.767771318654525
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -70.70768520746927,
         lng: 40.2298624639742
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -63.92429834041701,
         lng: 54.78522197560213
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -59.97182520701882,
         lng: 59.03051553062906
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -60.40837018168149,
         lng: 48.844450058762106
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -48.00855440353346,
         lng: 58.09933374324943
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 1 顛峰點數',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.oneParagonPoints',
         lat: -83.05623979949819,
         lng: 37.85067311590639
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -99.17322808257697,
         lng: 116.22710871578144
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -98.96273315451887,
         lng: 109.83666568244846
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -96.49232696945077,
         lng: 114.299652249986
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -105.76594690562754,
         lng: 113.53509059138088
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -132.64754859010634,
         lng: 117.72294924255233
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -119.86904816461626,
         lng: 114.50279508685321
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -126.48194739714481,
         lng: 111.61199328751908
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -112.48861578153527,
         lng: 75.0558551353945
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -117.94625285746895,
         lng: 66.89211680897348
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -117.77090424839943,
         lng: 81.28813127964858
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -125.07845147374556,
         lng: 71.94479784322388
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -104.85102311475671,
         lng: 125.88518542533404
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -110.91427869819077,
         lng: 116.37013635327995
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -115.87689180265346,
         lng: 126.21094441848345
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -126.63187163631733,
         lng: 94.05473225484278
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -127.21943088686885,
         lng: 103.52948853280748
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -131.18857863598166,
         lng: 102.7840718421542
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -130.4056376691416,
         lng: 93.66835734777821
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -92.56990349688104,
         lng: 106.14324791898038
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -105.73015245669954,
         lng: 103.38822812311992
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -108.25429450583732,
         lng: 109.29397947550652
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -120.29115751790059,
         lng: 108.76702159608192
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -115.15929411788943,
         lng: 105.19813448569118
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -124.99808336125537,
         lng: 100.29378277237211
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -105.41498454342236,
         lng: 97.49605497108067
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -100.93104485968576,
         lng: 102.97016093064587
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -92.41644400349341,
         lng: 100.74940355582856
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: '獎勵: +5古幣',
         lat: -96.02879622094608,
         lng: 91.59059815666257
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -115.23919086315095,
         lng: 95.20929163752484
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -129.9207186326355,
         lng: 84.99450871373021
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -119.62735461810982,
         lng: 92.86904020889133
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -123.93426644702475,
         lng: 86.54410241975044
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -107.64735027800629,
         lng: 96.5772437783776
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -102.19162813143912,
         lng: 76.85881040190941
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -98.90817239779898,
         lng: 54.85667688675767
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -90.99002784859951,
         lng: 38.18559223987582
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -95.76845420845491,
         lng: 37.835975671278746
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -100.4195819561145,
         lng: 49.10278931092428
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -89.3628092542873,
         lng: 28.73192488045494
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -100.97226003174359,
         lng: 34.78406160318083
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -95.59843794115984,
         lng: 50.232165697300516
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -88.33820420139261,
         lng: 44.300465549889964
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -114.17996977939997,
         lng: 55.62727657371683
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -106.77384788235582,
         lng: 50.0268727332633
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -104.71521043199283,
         lng: 67.2543985102156
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -99.67205245232918,
         lng: 59.51718061596428
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -102.28831733422241,
         lng: 73.7856601462834
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -93.61569061461458,
         lng: 68.00541142227019
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -38.5876911292973,
         lng: 69.66996329739189
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -75.07154408969927,
         lng: 127.3381706776897
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -65.4569194240232,
         lng: 119.60251383467138
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -74.64660653304287,
         lng: 122.08585180839712
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 意志 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoWillpower',
         lat: -71.2124900489354,
         lng: 94.88506424181159
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: +  5 古幣上限',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -65.18405671952019,
         lng: 88.97580788759996
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 智力 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoIntelligence',
         lat: -67.78011173148369,
         lng: 102.82439409004041
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 力量 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoStrength',
         lat: -63.47888576976475,
         lng: 94.43300736777388
       },
       {
-        name: '莉莉絲的祭壇',
-        reward: '獎勵: 敏捷 +2',
+        name: 'coordinates.altarOfLilith',
+        reward: 'rewards.plusTwoDexterity',
         lat: -87.48196563049262,
         lng: 91.7696772415042
       }
     ]
   },
   worldBoss: {
-    text: '世界首領',
+    text: 'markers.worldBoss',
     icon: {
       url: worldBossIconUrl,
       width: 30,
@@ -1017,34 +1017,34 @@ export const markers: Markers = {
     },
     coordinates: [
       {
-        name: '世界首領',
+        name: 'coordinates.worldBoss',
         lat: -81.93096838282823,
         lng: 129.68431286569302
       },
       {
-        name: '世界首領',
+        name: 'coordinates.worldBoss',
         lat: -125.31180771239471,
         lng: 81.24427457614048
       },
       {
-        name: '世界首領',
+        name: 'coordinates.worldBoss',
         lat: -94.78149961295117,
         lng: 61.72350563032562
       },
       {
-        name: '世界首領',
+        name: 'coordinates.worldBoss',
         lat: -34.915033367025174,
         lng: 99.9489377188646
       },
       {
-        name: '世界首領',
+        name: 'coordinates.worldBoss',
         lat: -82.75085275621615,
         lng: 79.2013297729003
       }
     ]
   },
   waypoint: {
-    text: '傳送平台',
+    text: 'markers.waypoint',
     icon: {
       url: waypointIconUrl,
       width: 30,
@@ -1052,17 +1052,17 @@ export const markers: Markers = {
     },
     coordinates: [
       {
-        name: '瑪瑙瞭望塔',
+        name: 'coordinates.theOnyxWatchtower',
         lat: -67.24914600882575,
         lng: 59.90305480848242
       },
       {
-        name: '法洛布魯',
+        name: 'coordinates.farobru',
         lat: -52.667253487303746,
         lng: 65.48086758675278
       },
       {
-        name: '廢墟祭壇',
+        name: 'coordinates.altarOfRuin',
         lat: -92.14255018317763,
         lng: 37.027557309165545
       },
@@ -1102,7 +1102,7 @@ export const markers: Markers = {
         lng: 37.01689503470624
       },
       {
-        name: '喀拉伊蘇廢墟',
+        name: 'coordinates.theRuinsOfQaraYisu',
         lat: -88.04580921735112,
         lng: 72.10546830503492
       },
@@ -1197,12 +1197,12 @@ export const markers: Markers = {
         lng: 24.281250000000284
       },
       {
-        name: '維爾斯',
+        name: 'coordinates.vyeresz',
         lat: -125.81761420922177,
         lng: 97.08414362214808
       },
       {
-        name: '碎火莊園',
+        name: 'coordinates.firebreakManor',
         lat: -52.33016699789286,
         lng: 82.37491747578123
       },
@@ -1229,7 +1229,7 @@ export const markers: Markers = {
     ]
   },
   dungeon: {
-    text: '地城',
+    text: 'markers.dungeon',
     icon: {
       url: dungeonIconUrl,
       width: 30,
@@ -1239,35 +1239,35 @@ export const markers: Markers = {
       {
         name: '哀悼平原',
         reward: '獎勵: 狂暴撕扯之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -65.79580300099343,
         lng: 65.00786906315545
       },
       {
         name: '黑瑪瑙堡',
         reward: '獎勵: 暴風增長 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -66.86996053380324,
         lng: 59.4833676571817
       },
       {
         name: '崩塌的赫克馬',
         reward: '獎勵: 分裂能量之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -120.54151243723408,
         lng: 39.5328089077469
       },
       {
         name: '海濱傾灣',
         reward: '獎勵: 報復之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -58.21091508247181,
         lng: 47.0427613055117
       },
       {
         name: '棄誓者石墓',
         reward: '獎勵: 巨猛 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -88.13245240607313,
         lng: 37.23756288069859
       },
@@ -1280,14 +1280,14 @@ export const markers: Markers = {
       {
         name: '聖光守望',
         reward: '獎勵: 烈燃之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -83.68943328987645,
         lng: 100.48054929819133
       },
       {
         name: '巨鎚林地',
         reward: '獎勵: 消解 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -87.63277368321893,
         lng: 103.38681434087115
       },
@@ -1300,119 +1300,119 @@ export const markers: Markers = {
       {
         name: '廢棄小屋',
         reward: '獎勵: 爆魄之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -75.22526872715302,
         lng: 88.78014631513237
       },
       {
         name: '諾斯托瓦密林',
         reward: '獎勵: 撕裂血肉 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -72.19010568122089,
         lng: 88.24158363974927
       },
       {
         name: '慈悲之觸',
         reward: '獎勵: 鮮血尋覓者 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -58.793141991248866,
         lng: 90.81513859322334
       },
       {
         name: '科卓岡兵營',
         reward: '獎勵: 失血之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -60.72471651303039,
         lng: 102.05073120820899
       },
       {
         name: '禁忌之城',
         reward: '獎勵: 夜嚎 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -63.52929260278188,
         lng: 95.85005898797382
       },
       {
         name: '神聖藏骨堂',
         reward: '獎勵: 絕情狂怒之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -77.52339019013802,
         lng: 114.10590517431358
       },
       {
         name: '黑色收容所',
         reward: '獎勵: 苦痛之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -71.56410054108002,
         lng: 110.08484337469775
       },
       {
         name: '荒棄採石場',
         reward: '獎勵: 環繞刀刃之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -69.19515615198563,
         lng: 104.81582420259178
       },
       {
         name: '白霜之歿',
         reward: '獎勵: 浴血 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -67.12821085421714,
         lng: 119.47792427400033
       },
       {
         name: '穹頂',
         reward: '獎勵: 充能 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -68.25934490079383,
         lng: 126.51900167972664
       },
       {
         name: '亡者浚灘',
         reward: '獎勵: 穿刺冰寒之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -88.36701652324578,
         lng: 120.59852342891556
       },
       {
         name: '古拉恩運河',
         reward: '獎勵: 欺詐師 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -75.51356870839535,
         lng: 70.35879924429832
       },
       {
         name: '古拉恩貧民窟',
         reward: '獎勵: 分裂 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -74.46459986186821,
         lng: 72.37709121957596
       },
       {
         name: '呢喃秘庫',
         reward: '獎勵: 動盪灌注之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -74.14000460401739,
         lng: 82.95247697819232
       },
       {
         name: '幻流秘城',
         reward: '獎勵: 貪婪 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -85.47953872214993,
         lng: 73.56069204595111
       },
       {
         name: '暗淡洞穴',
         reward: '獎勵: 元素師 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -88.8949478193691,
         lng: 75.64060136423673
       },
       {
         name: '苦痛廢墟',
         reward: '獎勵: 飢渴難饜之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -84.67930447010765,
         lng: 90.52163150762352
       },
@@ -1425,28 +1425,28 @@ export const markers: Markers = {
       {
         name: '遭褻瀆的墓室',
         reward: '獎勵: 淬鍊打擊之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -89.05845332681801,
         lng: 92.83684720893544
       },
       {
         name: '卡利貝爾的礦井',
         reward: '獎勵: 不懈武師之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -23.942311334162255,
         lng: 80.19321583558562
       },
       {
         name: '嚎叫獸穴',
         reward: '獎勵: 箭矢風暴之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -36.2819983302016,
         lng: 77.9616783711216
       },
       {
         name: '沉沒遺跡',
         reward: '獎勵: 先祖力量之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -22.636329506196507,
         lng: 86.69101795843302
       },
@@ -1459,112 +1459,112 @@ export const markers: Markers = {
       {
         name: '薩拉特的巢穴',
         reward: '獎勵: 雪幕 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -55.34836082359248,
         lng: 92.77708545512891
       },
       {
         name: '蟲巢',
         reward: '獎勵: 腫脹詛咒之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -56.37382022958914,
         lng: 111.1965474829646
       },
       {
         name: '低語松林',
         reward: '獎勵: 彈道 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -52.03809607882108,
         lng: 123.8336695672108
       },
       {
         name: '馬達斯守望',
         reward: '獎勵: 蓄能 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -59.60931434771092,
         lng: 107.65517021883082
       },
       {
         name: '野性巢穴',
         reward: '獎勵: 流沙之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -35.0184395528172,
         lng: 113.51565108546058
       },
       {
         name: '扭曲穴坑',
         reward: '獎勵: 暗影切割者 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -36.3194131039782,
         lng: 111.22532384248603
       },
       {
         name: '古代水庫',
         reward: '獎勵: 遠古回聲之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -103.44723258683953,
         lng: 118.93674021069768
       },
       {
         name: '鬼魅避難所',
         reward: '獎勵: 爭戰者 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -109.03599813370207,
         lng: 115.13790730830718
       },
       {
         name: '撒卡拉鐘樓',
         reward: '獎勵: 恐懼熊化之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -117.25033806522427,
         lng: 124.50969311248795
       },
       {
         name: '巫水',
         reward: '獎勵: 奇才 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -121.72800267272905,
         lng: 101.78063989110409
       },
       {
         name: '無面聖壇',
         reward: '獎勵: 不撓指揮官 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -127.72544360685848,
         lng: 113.93033109129698
       },
       {
         name: '艾瑞督遺址',
         reward: '獎勵: 獻祭 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -125.39155715539727,
         lng: 91.39961973789396
       },
       {
         name: '歌亞遺址',
         reward: '獎勵: 籠罩 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -132.58073228544072,
         lng: 103.41511943964301
       },
       {
         name: '海獸之喉',
         reward: '獎勵: 虹吸飲食之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -132.3620178913325,
         lng: 97.73477799454145
       },
       {
         name: '墨根工坊',
         reward: '獎勵: 地擊者 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -118.17701657636036,
         lng: 94.66890282673712
       },
       {
         name: '目盲洞穴',
         reward: '獎勵: 暴風雨之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -120.02321470884692,
         lng: 88.33259587201253
       },
@@ -1577,7 +1577,7 @@ export const markers: Markers = {
       {
         name: '西洛克洞穴',
         reward: '獎勵: 迴盪狂怒之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -94.34180236994669,
         lng: 57.26582074622091
       },
@@ -1590,49 +1590,49 @@ export const markers: Markers = {
       {
         name: '密議',
         reward: '獎勵: 換形毒債之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -113.97068272986537,
         lng: 35.90913773521713
       },
       {
         name: '哈坎避難所',
         reward: '獎勵: 無情狂戰士 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -119.19885234678651,
         lng: 30.427668326439672
       },
       {
         name: '遺忘廢墟',
         reward: '獎勵: 鋼鐵之血 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -103.46873871664812,
         lng: 25.781214058330022
       },
       {
         name: '腐化石窟',
         reward: '獎勵: 纏繞觸鬚之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -112.15144091076903,
         lng: 26.378124705270892
       },
       {
         name: '腐臭水層',
         reward: '獎勵: 堅定不移之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -106.32466437387413,
         lng: 33.820657362048465
       },
       {
         name: '奧杜爾洞穴',
         reward: '獎勵: 詛咒者之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -106.48454624575254,
         lng: 26.692337810055534
       },
       {
         name: '異端收容所',
         reward: '獎勵: 精銳爭戰者 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -109.54254114182393,
         lng: 15.771753552369432
       },
@@ -1645,56 +1645,56 @@ export const markers: Markers = {
       {
         name: '煉獄',
         reward: '獎勵: 復仇心切 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -92.6675059736699,
         lng: 51.16346529986755
       },
       {
         name: '聖徒之墓',
         reward: '獎勵: 煽火 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -88.23836273026751,
         lng: 30.083029449510093
       },
       {
         name: '沉沒書庫',
         reward: '獎勵: 控制之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -99.82306672821802,
         lng: 35.249961761737566
       },
       {
         name: '崩塌寶庫',
         reward: '獎勵: 颶風力量之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -98.09141083230105,
         lng: 45.96752099774383
       },
       {
         name: '廢棄的地下通道',
         reward: '獎勵: 折磨 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -116.17270419910292,
         lng: 40.21813985282833
       },
       {
         name: '無盡大門',
         reward: '獎勵: 狂暴人獸之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -109.39868575572069,
         lng: 77.01488607141201
       },
       {
         name: '信仰棱堡',
         reward: '獎勵: 巧技射擊 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -106.36526087644432,
         lng: 77.16916505930682
       },
       {
         name: '大地之殤',
         reward: '獎勵: 焦黑肢體之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -121.56264115681722,
         lng: 70.21615450615886
       },
@@ -1707,42 +1707,42 @@ export const markers: Markers = {
       {
         name: '異教徒要塞',
         reward: '獎勵: 麻木憤怒之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -94.84578231876262,
         lng: 96.31210069914333
       },
       {
         name: '聖光避難所',
         reward: '獎勵: 布爾凱索之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -94.76111298031068,
         lng: 90.23749072942168
       },
       {
         name: '霜痕洞窟',
         reward: '獎勵: 深邃黑暗之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -75.00319584154045,
         lng: 118.83957213489296
       },
       {
         name: '愛妮卡的礦坑',
         reward: '獎勵: 風暴爪 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -75.34629226311701,
         lng: 116.34854672018969
       },
       {
         name: '邪教徒庇難所',
         reward: '獎勵: 焰行者 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -79.67067413994492,
         lng: 90.80344543587431
       },
       {
         name: '浸沒深淵',
         reward: '獎勵: 賦能收割者之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -13.128852503690105,
         lng: 79.49663354010791
       },
@@ -1755,7 +1755,7 @@ export const markers: Markers = {
       {
         name: '妖邪地洞',
         reward: '獎勵: 靜電糾纏之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -35.793367276769615,
         lng: 67.9831443518524
       },
@@ -1768,21 +1768,21 @@ export const markers: Markers = {
       {
         name: '叛徒藏身處',
         reward: '獎勵: 腐敗之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -108.63427541305822,
         lng: 46.124480281151904
       },
       {
         name: '聖教軍大教堂',
         reward: '獎勵: 風暴轉移 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -105.10167263860811,
         lng: 40.77620094172542
       },
       {
         name: '卡爾蒂姆監獄',
         reward: '獎勵: 搶得先機 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -109.83325688011327,
         lng: 37.324215951028194
       },
@@ -1795,35 +1795,35 @@ export const markers: Markers = {
       {
         name: '懺悔石洞',
         reward: '獎勵: 死亡之願 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -31.733275112973068,
         lng: 91.4927231897335
       },
       {
         name: '遺忘者秘庫',
         reward: '獎勵: 安魂曲 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -27.396431465036894,
         lng: 97.14640894868677
       },
       {
         name: '堅毅兵營',
         reward: '獎勵: 精力 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -109.97690604305397,
         lng: 96.92438622803935
       },
       {
         name: '阿克漢之握',
         reward: '獎勵: 荒疫之力 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -109.37293732085396,
         lng: 96.07113918712204
       },
       {
         name: '鐵堡',
         reward: '獎勵: 迅血 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -108.45503802435208,
         lng: 98.26241331129356
       },
@@ -1836,70 +1836,70 @@ export const markers: Markers = {
       {
         name: '迦倫堡',
         reward: '獎勵: 兇蠻旋風斬之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -40.53909253513524,
         lng: 105.42033392911969
       },
       {
         name: '露斑長眠處',
         reward: '獎勵: 詐欺 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -42.19494668858984,
         lng: 99.15392083431766
       },
       {
         name: '多姆海涅隧道',
         reward: '獎勵: 高效之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -39.86008804221949,
         lng: 95.36751743419744
       },
       {
         name: '水手藏身處',
         reward: '獎勵: 超載 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -33.5785010505505,
         lng: 108.45675530007506
       },
       {
         name: '科瓦拉壁壘',
         reward: '獎勵: 爆破陷阱 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -64.73890929293407,
         lng: 126.16505540299279
       },
       {
         name: '奧德林地',
         reward: '獎勵: 復生之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -42.38281598967122,
         lng: 107.74786131751446
       },
       {
         name: '賈拉爾守望',
         reward: '獎勵: 刃舞者 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -38.09696838378804,
         lng: 120.45605541355718
       },
       {
         name: '毒蛇巢穴',
         reward: '獎勵: 三重詛咒之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -115.04407429092859,
         lng: 103.76700395059744
       },
       {
         name: '暗影墜落處',
         reward: '獎勵: 分岔散射之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -122.66505126289616,
         lng: 99.77262729092675
       },
       {
         name: '惡魔烙痕',
         reward: '獎勵: 怪異叛逆之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -54.97527366209104,
         lng: 83.36706862263819
       },
@@ -1912,7 +1912,7 @@ export const markers: Markers = {
       {
         name: '腐臭陵墓',
         reward: '獎勵: 雪衛 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -94.7981153077622,
         lng: 111.39645040217843
       },
@@ -1925,49 +1925,49 @@ export const markers: Markers = {
       {
         name: '目盲之道',
         reward: '獎勵: 爆裂骸骨之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -55.656016321662555,
         lng: 70.549571486489
       },
       {
         name: '獰笑迷宮',
         reward: '獎勵: 靜風之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -69.19786651355055,
         lng: 68.42524584255516
       },
       {
         name: '背叛者行列',
         reward: '獎勵: 強效鮮血之 精華',
-        job: '死靈法師',
+        job: 'jobs.necromancer',
         lat: -84.33043379997974,
         lng: 81.7413368517634
       },
       {
         name: '柵欄圍場',
         reward: '獎勵: 墜石 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -41.60276214710689,
         lng: 86.81039419706183
       },
       {
         name: '不潔之原',
         reward: '獎勵: 鋼鐵戰士之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -68.20970403952332,
         lng: 37.204692443415155
       },
       {
         name: '康鐸神殿',
         reward: '獎勵: 躍動引導之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -77.8206461487253,
         lng: 29.499814818103985
       },
       {
         name: '先祖輓歌',
         reward: '獎勵: 烈爆暗影之 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -79.36602360795769,
         lng: 67.07608522409204
       },
@@ -1980,93 +1980,141 @@ export const markers: Markers = {
       {
         name: '封印的秘庫',
         reward: '獎勵: 癒傷石之 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -83.78783119886371,
         lng: 57.74420931464158
       },
       {
         name: '浴血峭壁',
         reward: '獎勵: 牧人 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -78.43433682001685,
         lng: 60.066287750619296
       },
       {
         name: '納骨室',
         reward: '獎勵: 永久踐踏之 精華',
-        job: '野蠻人',
+        job: 'jobs.barbarian',
         lat: -85.87180463776834,
         lng: 54.772380120175995
       },
       {
         name: '消散回聲',
         reward: '獎勵: 化形者 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -93.77521896107149,
         lng: 79.40064361617716
       },
       {
         name: '血紅禮拜堂',
         reward: '獎勵: 賦能 精華',
-        job: '俠盜',
+        job: 'jobs.rogue',
         lat: -74.25834723886825,
         lng: 131.5211105447874
       },
       {
         name: '不朽放射',
         reward: '獎勵: 割裂 精華',
-        job: '德魯伊',
+        job: 'jobs.druid',
         lat: -78.8698506788668,
         lng: 111.26255344170309
       },
       {
         name: '遺忘深淵',
         reward: '獎勵: 刺骨冰寒之 精華',
-        job: '魔法使',
+        job: 'jobs.sorcerer',
         lat: -67.36362932449177,
         lng: 51.91306442967338
       }
     ]
   },
   mysteriousChest: {
-    text: '神秘苦痛贈禮',
+    text: 'markers.mysteriousChest',
     icon: {
       url: mysteriousChestIconUrl,
       width: 30,
       height: 30
     },
     coordinates: [
-      { lat: -125.609375, lng: 22.54296875, name: '神秘苦痛贈禮' },
-      { lat: -127.7656, lng: 35.2852, name: '神秘苦痛贈禮' },
-      { lat: -106.515625, lng: 27.3828125, name: '神秘苦痛贈禮' },
-      { lat: -96.5078125, lng: 27.59765625, name: '神秘苦痛贈禮' },
-      { lat: -96.75, lng: 36.8203125, name: '神秘苦痛贈禮' },
-      { lat: -96.0625, lng: 35.8359375, name: '神秘苦痛贈禮' },
-      { lat: -91.96875, lng: 26.2890625, name: '神秘苦痛贈禮' },
-      { lat: -86.875, lng: 46.6953125, name: '神秘苦痛贈禮' },
-      { lat: -91.3046875, lng: 64.59765625, name: '神秘苦痛贈禮' },
-      { lat: -71.7656, lng: 68.8516, name: '神秘苦痛贈禮' },
-      { lat: -62.90625, lng: 68.1796875, name: '神秘苦痛贈禮' },
-      { lat: -52.0390625, lng: 72.00390625, name: '神秘苦痛贈禮' },
-      { lat: -44.6484375, lng: 59.37109375, name: '神秘苦痛贈禮' },
-      { lat: -44.625, lng: 68.85546875, name: '神秘苦痛贈禮' },
-      { lat: -38.640625, lng: 71.3671875, name: '神秘苦痛贈禮' },
-      { lat: -32.0312, lng: 75.1328, name: '神秘苦痛贈禮' },
-      { lat: -23.140625, lng: 71.58203125, name: '神秘苦痛贈禮' },
-      { lat: -20.4296875, lng: 85.75390625, name: '神秘苦痛贈禮' },
-      { lat: -23.4219, lng: 88.22265625, name: '神秘苦痛贈禮' },
-      { lat: -62.5703125, lng: 92.74609375, name: '神秘苦痛贈禮' },
-      { lat: -64.421875, lng: 90.62890625, name: '神秘苦痛贈禮' },
-      { lat: -72.71875, lng: 107.0859375, name: '神秘苦痛贈禮' },
-      { lat: -79.2109, lng: 110.6367, name: '神秘苦痛贈禮' },
-      { lat: -92, lng: 100.2109375, name: '神秘苦痛贈禮' },
-      { lat: -99.484375, lng: 84.7890625, name: '神秘苦痛贈禮' },
-      { lat: -128.9765625, lng: 84.48046875, name: '神秘苦痛贈禮' },
-      { lat: -117.0859375, lng: 92.75390625, name: '神秘苦痛贈禮' }
+      {
+        lat: -125.609375,
+        lng: 22.54296875,
+        name: 'coordinates.mysteriousChest'
+      },
+      { lat: -127.7656, lng: 35.2852, name: 'coordinates.mysteriousChest' },
+      {
+        lat: -106.515625,
+        lng: 27.3828125,
+        name: 'coordinates.mysteriousChest'
+      },
+      {
+        lat: -96.5078125,
+        lng: 27.59765625,
+        name: 'coordinates.mysteriousChest'
+      },
+      { lat: -96.75, lng: 36.8203125, name: 'coordinates.mysteriousChest' },
+      { lat: -96.0625, lng: 35.8359375, name: 'coordinates.mysteriousChest' },
+      { lat: -91.96875, lng: 26.2890625, name: 'coordinates.mysteriousChest' },
+      { lat: -86.875, lng: 46.6953125, name: 'coordinates.mysteriousChest' },
+      {
+        lat: -91.3046875,
+        lng: 64.59765625,
+        name: 'coordinates.mysteriousChest'
+      },
+      { lat: -71.7656, lng: 68.8516, name: 'coordinates.mysteriousChest' },
+      { lat: -62.90625, lng: 68.1796875, name: 'coordinates.mysteriousChest' },
+      {
+        lat: -52.0390625,
+        lng: 72.00390625,
+        name: 'coordinates.mysteriousChest'
+      },
+      {
+        lat: -44.6484375,
+        lng: 59.37109375,
+        name: 'coordinates.mysteriousChest'
+      },
+      { lat: -44.625, lng: 68.85546875, name: 'coordinates.mysteriousChest' },
+      { lat: -38.640625, lng: 71.3671875, name: 'coordinates.mysteriousChest' },
+      { lat: -32.0312, lng: 75.1328, name: 'coordinates.mysteriousChest' },
+      {
+        lat: -23.140625,
+        lng: 71.58203125,
+        name: 'coordinates.mysteriousChest'
+      },
+      {
+        lat: -20.4296875,
+        lng: 85.75390625,
+        name: 'coordinates.mysteriousChest'
+      },
+      { lat: -23.4219, lng: 88.22265625, name: 'coordinates.mysteriousChest' },
+      {
+        lat: -62.5703125,
+        lng: 92.74609375,
+        name: 'coordinates.mysteriousChest'
+      },
+      {
+        lat: -64.421875,
+        lng: 90.62890625,
+        name: 'coordinates.mysteriousChest'
+      },
+      { lat: -72.71875, lng: 107.0859375, name: 'coordinates.mysteriousChest' },
+      { lat: -79.2109, lng: 110.6367, name: 'coordinates.mysteriousChest' },
+      { lat: -92, lng: 100.2109375, name: 'coordinates.mysteriousChest' },
+      { lat: -99.484375, lng: 84.7890625, name: 'coordinates.mysteriousChest' },
+      {
+        lat: -128.9765625,
+        lng: 84.48046875,
+        name: 'coordinates.mysteriousChest'
+      },
+      {
+        lat: -117.0859375,
+        lng: 92.75390625,
+        name: 'coordinates.mysteriousChest'
+      }
     ]
   },
   sideQuest: {
-    text: '支線任務',
+    text: 'markers.sideQuest',
     icon: {
       url: sideQuestIconUrl,
       width: 30,
@@ -2074,7 +2122,7 @@ export const markers: Markers = {
     },
     coordinates: [
       {
-        name: '廢墟之地',
+        name: 'coordinates.fieldsOfRuin',
         lat: -45.94160910576497,
         lng: 94.5189535469791
       },
@@ -3061,7 +3109,7 @@ export const markers: Markers = {
     ]
   },
   stronghold: {
-    text: '據點',
+    text: 'markers.stronghold',
     icon: {
       url: strongholdIconUrl,
       width: 30,
@@ -3069,77 +3117,77 @@ export const markers: Markers = {
     },
     coordinates: [
       {
-        name: '圖爾鐸拉',
+        name: 'coordinates.turDulra',
         lat: -41.22970444605725,
         lng: 65.280758490961
       },
       {
-        name: '希望之光',
+        name: 'coordinates.hopesLight',
         lat: -18.1391915400568,
         lng: 79.2182951598853
       },
       {
-        name: '穆爾丹的小屋營區',
+        name: 'coordinates.moordaineLodge',
         lat: -39.19009844755228,
         lng: 112.65153559350603
       },
       {
-        name: '科卓岡',
+        name: 'coordinates.korDragan',
         lat: -62.37859681621491,
         lng: 99.38748944332986
       },
       {
-        name: '馬諾克',
+        name: 'coordinates.malnok',
         lat: -77.2421607173259,
         lng: 115.77634780880507
       },
       {
-        name: '諾斯托瓦',
+        name: 'coordinates.nostrava',
         lat: -80.353891477467,
         lng: 88.99766260486187
       },
       {
-        name: '瑪瑙瞭望塔',
+        name: 'coordinates.theOnyxWatchtower',
         lat: -70.29444345017453,
         lng: 58.315760242495514
       },
       {
-        name: '喀拉伊蘇遺址',
+        name: 'coordinates.theRuinsOfQaraYisu',
         lat: -88.71656478376494,
         lng: 71.27799333636045
       },
       {
-        name: '腐爛神殿',
+        name: 'coordinates.templeOfRot',
         lat: -84.06225530731174,
         lng: 51.974357780916066
       },
       {
-        name: '奧卡納斯',
+        name: 'coordinates.alcarnus',
         lat: -100.10026011913456,
         lng: 52.22397870921091
       },
       {
-        name: '廢墟祭壇',
+        name: 'coordinates.altarOfRuin',
         lat: -91.30867209518823,
         lng: 36.52251305459656
       },
       {
-        name: '奧瑪斯堡',
+        name: 'coordinates.omathsRedoubt',
         lat: -122.18422722918919,
         lng: 40.27109777956274
       },
       {
-        name: '艾里曼的火葬堆',
+        name: 'coordinates.erimansPyre',
         lat: -95.06679462811067,
         lng: 106.90062285115434
       },
       {
-        name: '聖教軍紀念碑',
+        name: 'coordinates.crusadersMonument',
         lat: -106.45747209055514,
         lng: 76.16402478803947
       },
       {
-        name: '維爾斯',
+        name: 'coordinates.vyeresz',
         lat: -125.04483709825021,
         lng: 97.73622123058703
       }

@@ -10,7 +10,7 @@ export type Region = {
 
 export const regions: Array<Region> = [
   {
-    name: '卡羅奎斯廢墟',
+    name: 'regions.carrowcrestRuins',
     coordinates: [
       { lat: -36.67880115539609, lng: 80.76535440120283 },
       { lat: -36.89221321481111, lng: 82.34773015435249 },
@@ -26,7 +26,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '北部海岸',
+    name: 'regions.northshore',
     coordinates: [
       { lat: -23.899301663842582, lng: 70.56535929686952 },
       { lat: -24.429586199862744, lng: 69.87142971273397 },
@@ -69,7 +69,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '希望之光',
+    name: 'regions.hopesLight',
     coordinates: [
       { lat: -15.598520882814626, lng: 82.08886608385312 },
       { lat: -13.584896125793477, lng: 82.0066888401056 },
@@ -86,7 +86,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '西向低地',
+    name: 'regions.westeringLowlands',
     coordinates: [
       { lat: -57.340742652898015, lng: 73.06451144269919 },
       { lat: -57.58146281054145, lng: 74.31898180039927 },
@@ -130,7 +130,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '碎火莊園',
+    name: 'regions.firebreakManor',
     coordinates: [
       { lat: -49.505999463154524, lng: 82.66406544259262 },
       { lat: -50.4442871616502, lng: 81.30827574954054 },
@@ -143,7 +143,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '嚎哭山丘',
+    name: 'regions.wailingHills',
     coordinates: [
       { lat: -27.780122806835184, lng: 99.68544592187963 },
       { lat: -25.871555200475292, lng: 96.73464791766659 },
@@ -183,7 +183,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '卡恩艾達',
+    name: 'regions.caenAdar',
     coordinates: [
       { lat: -32.43569952865002, lng: 99.64150072754538 },
       { lat: -33.7851658753308, lng: 98.16073913535092 },
@@ -200,7 +200,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '史湛德',
+    name: 'regions.strand',
     coordinates: [
       { lat: -34.726722561946524, lng: 96.13902829046964 },
       { lat: -36.72973839162536, lng: 94.1364649303441 },
@@ -244,7 +244,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '穆爾丹的小屋營區',
+    name: 'regions.moordaineLodge',
     coordinates: [
       { lat: -39.215784976630786, lng: 115.27327915183982 },
       { lat: -38.11676663452936, lng: 115.81743553182028 },
@@ -265,7 +265,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '迷霧荒原',
+    name: 'regions.theShroudedMoors',
     coordinates: [
       { lat: -48.07112900371411, lng: 113.95857673237369 },
       { lat: -48.85966247739136, lng: 115.50213145904755 },
@@ -312,7 +312,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '圖爾鐸拉',
+    name: 'regions.turDulra',
     coordinates: [
       { lat: -35.521741191992575, lng: 69.08000273978581 },
       { lat: -35.25335690771161, lng: 67.96046722935658 },
@@ -336,7 +336,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '深木林',
+    name: 'regions.deepForest',
     coordinates: [
       { lat: -32.938945684933536, lng: 68.83995717181419 },
       { lat: -34.16155083807968, lng: 68.74747181825637 },
@@ -395,7 +395,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '丘陵地',
+    name: 'regions.theDowns',
     coordinates: [
       { lat: -48.913607749099924, lng: 104.30412449732867 },
       { lat: -48.05062455444018, lng: 102.51707236115033 },
@@ -432,7 +432,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '高地荒野',
+    name: 'regions.highlandWilds',
     coordinates: [
       { lat: -56.13527945849526, lng: 101.80853228077207 },
       { lat: -56.91607088763214, lng: 101.93173657458291 },
@@ -478,7 +478,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '翡翠獵場',
+    name: 'regions.theEmeraldChase',
     coordinates: [
       { lat: -45.98261825605006, lng: 79.36061466943006 },
       { lat: -48.355421734169504, lng: 81.51374762238281 },
@@ -511,7 +511,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '圖斯瑪裂谷',
+    name: 'regions.tusmaaRift',
     coordinates: [
       { lat: -59.802752824980004, lng: 59.58616169581927 },
       { lat: -60.68624271656777, lng: 58.53857801431353 },
@@ -541,7 +541,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '柯塔瑪草原',
+    name: 'regions.kotamaGrasslands',
     coordinates: [
       { lat: -44.51336812905828, lng: 56.43519508418781 },
       { lat: -46.068582933741745, lng: 52.395016476060704 },
@@ -604,7 +604,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '千巴塔山脊',
+    name: 'regions.chambatarRidge',
     coordinates: [
       { lat: -71.5561469743078, lng: 70.49228299590447 },
       { lat: -71.65766721648053, lng: 71.33572331749953 },
@@ -650,7 +650,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '瑪瑙瞭望塔',
+    name: 'regions.theonyxWatchtower',
     coordinates: [
       { lat: -65.57546757717228, lng: 59.300283330565904 },
       { lat: -66.52188638913267, lng: 57.641474039780334 },
@@ -668,7 +668,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '卡蓋峭壁',
+    name: 'regions.khargaiCrags',
     coordinates: [
       { lat: -56.659205381072326, lng: 72.28062948838965 },
       { lat: -54.471088942996175, lng: 70.09300733301093 },
@@ -736,7 +736,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '賈卡盆地',
+    name: 'regions.jakhaBasin',
     coordinates: [
       { lat: -75.17097263979473, lng: 64.47496164620297 },
       { lat: -75.91063604471657, lng: 64.37225627097241 },
@@ -772,7 +772,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '喀拉伊蘇',
+    name: 'regions.qaraYisu',
     coordinates: [
       { lat: -86.87699478182338, lng: 71.153993444873 },
       { lat: -87.89909525397736, lng: 70.99676915279741 },
@@ -795,7 +795,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '薩蘭火山口',
+    name: 'regions.saraanCaldera',
     coordinates: [
       { lat: -82.17369272148522, lng: 81.00717161936944 },
       { lat: -81.0299788785845, lng: 80.42516475542868 },
@@ -811,7 +811,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '詛咒荒原',
+    name: 'regions.theAccursedWastes',
     coordinates: [
       { lat: -82.11530226426714, lng: 68.53543198601542 },
       { lat: -84.11870109420428, lng: 67.3541287139936 },
@@ -873,7 +873,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '原始懸崖',
+    name: 'regions.untamedScarps',
     coordinates: [
       { lat: -90.56426503607202, lng: 65.8688624921938 },
       { lat: -89.5838805744451, lng: 66.53934894658028 },
@@ -938,7 +938,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '腐爛神殿',
+    name: 'regions.templeOfRot',
     coordinates: [
       { lat: -83.43383369806708, lng: 48.19611293151473 },
       { lat: -83.64385719416404, lng: 48.821446125680566 },
@@ -959,7 +959,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '丁代灘地',
+    name: 'regions.dindaiFlats',
     coordinates: [
       { lat: -62.36080435760559, lng: 47.655311990488045 },
       { lat: -61.75132687616004, lng: 46.59403330016913 },
@@ -998,7 +998,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '諾戈守夜地',
+    name: 'regions.norgoiVigil',
     coordinates: [
       { lat: -60.32923972463628, lng: 44.11081252321611 },
       { lat: -57.61551746731025, lng: 43.771915885460956 },
@@ -1016,7 +1016,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '疤痕海岸',
+    name: 'regions.theScarredCoast',
     coordinates: [
       { lat: -63.49090505869668, lng: 41.73450737492507 },
       { lat: -63.534655196182385, lng: 40.33943037252625 },
@@ -1056,7 +1056,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '憎恨之原',
+    name: 'regions.fieldsofHatred',
     coordinates: [
       { lat: -80.21498579610082, lng: 33.37908641001869 },
       { lat: -81.51622400403656, lng: 31.776887904630286 },
@@ -1097,7 +1097,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '多佈雷夫針葉林',
+    name: 'regions.dobrevTaiga',
     coordinates: [
       { lat: -78.35205500807646, lng: 104.61553673731007 },
       { lat: -78.82003412297075, lng: 104.12675139207663 },
@@ -1130,7 +1130,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '諾斯托瓦',
+    name: 'regions.nostrava',
     coordinates: [
       { lat: -83.09833064140949, lng: 90.1067946527685 },
       { lat: -82.9405939854449, lng: 90.96289820592278 },
@@ -1148,7 +1148,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '蒼白林地',
+    name: 'regions.thePallidGlade',
     coordinates: [
       { lat: -66.55220005042085, lng: 86.42923198643399 },
       { lat: -66.25411886113619, lng: 85.34480319425211 },
@@ -1201,7 +1201,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '馬諾克',
+    name: 'regions.malnok',
     coordinates: [
       { lat: -73.76358964137972, lng: 117.65620529218376 },
       { lat: -74.25186552230929, lng: 117.04339139985241 },
@@ -1225,7 +1225,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '寒冷開闊地',
+    name: 'regions.frigidExpanse',
     coordinates: [
       { lat: -61.70341228516167, lng: 108.36093019084738 },
       { lat: -63.367406353936616, lng: 106.82056348896744 },
@@ -1307,7 +1307,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '科卓岡',
+    name: 'regions.korDragan',
     coordinates: [
       { lat: -64.75260770534578, lng: 97.22331326528408 },
       { lat: -65.25001962588726, lng: 98.80745505076281 },
@@ -1328,7 +1328,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '薩科瓦小徑',
+    name: 'regions.sarkovaPass',
     coordinates: [
       { lat: -59.37480937440916, lng: 87.2584164114829 },
       { lat: -60.6193363475034, lng: 87.0511782815969 },
@@ -1389,7 +1389,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '淒涼高地',
+    name: 'regions.desolateHighlands',
     coordinates: [
       { lat: -71.33277230048633, lng: 102.53194026800927 },
       { lat: -73.43151560581396, lng: 102.2774436388296 },
@@ -1440,7 +1440,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '科瓦拉',
+    name: 'regions.korValar',
     coordinates: [
       { lat: -68.36814183140439, lng: 124.94596338421105 },
       { lat: -68.19358991321955, lng: 126.69006805904166 },
@@ -1456,7 +1456,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '試煉之地',
+    name: 'regions.theCrucible',
     coordinates: [
       { lat: -84.03641987204833, lng: 127.08787139163616 },
       { lat: -84.84478417306633, lng: 128.93636320603767 },
@@ -1477,7 +1477,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '天堂之座',
+    name: 'regions.seatOfTheHeavens',
     coordinates: [
       { lat: -64.17777556416598, lng: 117.43592292707217 },
       { lat: -64.67948747176223, lng: 116.86893688830057 },
@@ -1522,7 +1522,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '烈風山谷',
+    name: 'regions.galeValley',
     coordinates: [
       { lat: -83.45089339267048, lng: 121.04527683618511 },
       { lat: -82.64968562230032, lng: 120.20301761472004 },
@@ -1549,7 +1549,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '褻瀆之境',
+    name: 'regions.fieldsOfDesecration',
     coordinates: [
       { lat: -128.2304542075713, lng: 81.72342840036868 },
       { lat: -127.50360602725434, lng: 83.06051284706983 },
@@ -1573,7 +1573,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '費蒂斯溼地',
+    name: 'regions.fethisWetlands',
     coordinates: [
       { lat: -110.08299256894463, lng: 89.68219836933706 },
       { lat: -112.50490818816584, lng: 86.9006104864868 },
@@ -1628,7 +1628,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '拉哈特堡壘遺跡',
+    name: 'regions.ruinsOfRakhatKeep',
     coordinates: [
       { lat: -110.88296323049929, lng: 94.67385110775297 },
       { lat: -111.29075421442796, lng: 95.45125408965995 },
@@ -1651,7 +1651,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '艾里曼的火葬堆',
+    name: 'regions.erimansPyre',
     coordinates: [
       { lat: -96.3371888200954, lng: 109.02901399633927 },
       { lat: -95.67117474653176, lng: 109.04942527621128 },
@@ -1670,7 +1670,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '悲鬱丘陵',
+    name: 'regions.dismalFoothills',
     coordinates: [
       { lat: -92.46341946706971, lng: 83.48295389242159 },
       { lat: -94.15531861275744, lng: 82.85928448542518 },
@@ -1723,7 +1723,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '荒疫沼澤',
+    name: 'regions.blightmarsh',
     coordinates: [
       { lat: -121.90697654287251, lng: 99.96295771178295 },
       { lat: -123.8112987801722, lng: 100.87855839748427 },
@@ -1762,7 +1762,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '維爾斯',
+    name: 'regions.vyeresz',
     coordinates: [
       { lat: -126.19529647476105, lng: 96.1406794936194 },
       { lat: -127.02390224952353, lng: 96.50402148840288 },
@@ -1785,7 +1785,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '劇毒沼地',
+    name: 'regions.toxicFens',
     coordinates: [
       { lat: -132.0519754924978, lng: 90.16167648375163 },
       { lat: -132.3938652582747, lng: 91.69931245161197 },
@@ -1833,7 +1833,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '腐惡三角洲',
+    name: 'regions.rotspillDelta',
     coordinates: [
       { lat: -102.78110343338608, lng: 119.37115279348572 },
       { lat: -104.24664403205462, lng: 117.33077085887828 },
@@ -1872,7 +1872,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '聖教軍紀念碑',
+    name: 'regions.crusadersMonument',
     coordinates: [
       { lat: -100.84293961692609, lng: 75.22826081394365 },
       { lat: -102.10027125065092, lng: 74.71071536594447 },
@@ -1894,7 +1894,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '烏米爾高原',
+    name: 'regions.umirPlateau',
     coordinates: [
       { lat: -106.81780298431778, lng: 78.39529721866793 },
       { lat: -106.77417242203009, lng: 77.5959504030673 },
@@ -1940,7 +1940,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '鬧鬼殘骸',
+    name: 'regions.hauntedWreckage',
     coordinates: [
       { lat: -135.1862428221659, lng: 115.50646193480952 },
       { lat: -134.423130091571, lng: 115.57193838676466 },
@@ -1957,7 +1957,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '遺忘海岸',
+    name: 'regions.forsakenCoast',
     coordinates: [
       { lat: -114.97416479705961, lng: 111.72179645252076 },
       { lat: -118.73137395528158, lng: 110.01353555994558 },
@@ -1992,7 +1992,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '苦痛泥潭',
+    name: 'regions.theWrithingMire',
     coordinates: [
       { lat: -103.30319931599661, lng: 106.14233516767626 },
       { lat: -104.23995501345912, lng: 107.80638660150454 },
@@ -2024,7 +2024,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '廢墟祭壇',
+    name: 'regions.altarOfRuin',
     coordinates: [
       { lat: -89.80301853267466, lng: 36.20009935228792 },
       { lat: -90.1933958164795, lng: 35.45377238219153 },
@@ -2046,7 +2046,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '琥珀沙地',
+    name: 'regions.amberSands',
     coordinates: [
       { lat: -83.66457404675022, lng: 29.282822399314767 },
       { lat: -84.88183568323527, lng: 29.51920371424326 },
@@ -2123,7 +2123,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '破碎海岸',
+    name: 'regions.raggedCoastline',
     coordinates: [
       { lat: -96.72350257005655, lng: 25.631676286800882 },
       { lat: -98.53187470156902, lng: 23.371540066477877 },
@@ -2170,7 +2170,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '破敗渠道',
+    name: 'regions.dilapidatedAqueducts',
     coordinates: [
       { lat: -108.95468729394698, lng: 31.2632142898198 },
       { lat: -110.45837777515077, lng: 30.873097995514243 },
@@ -2189,7 +2189,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '卡爾蒂姆',
+    name: 'regions.caldeum',
     coordinates: [
       { lat: -112.18420031460798, lng: 36.22747431403367 },
       { lat: -112.5403482989206, lng: 35.871406781466334 },
@@ -2228,7 +2228,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '奧瑪斯堡',
+    name: 'regions.omathsRedoubt',
     coordinates: [
       { lat: -123.63643039229038, lng: 40.7906420822317 },
       { lat: -123.1498526140318, lng: 41.1677597583829 },
@@ -2247,7 +2247,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '南部開闊地',
+    name: 'regions.southernExpanse',
     coordinates: [
       { lat: -115.49602692364394, lng: 20.305164133791067 },
       { lat: -117.17686221679995, lng: 19.99313078255412 },
@@ -2310,7 +2310,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '憎恨之原',
+    name: 'regions.fieldsofHatred',
     coordinates: [
       { lat: -125.01162244305911, lng: 45.12180093107645 },
       { lat: -125.04586847703848, lng: 46.977344167883786 },
@@ -2349,7 +2349,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '奧卡納斯',
+    name: 'regions.alcarnus',
     coordinates: [
       { lat: -101.35657128373458, lng: 51.914065581917825 },
       { lat: -101.3665292904501, lng: 52.48211182434491 },
@@ -2374,7 +2374,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '焦烙盆地',
+    name: 'regions.searedBasin',
     coordinates: [
       { lat: -92.59382566064761, lng: 62.9549095986569 },
       { lat: -93.7928367391968, lng: 63.33860444750685 },
@@ -2391,7 +2391,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: '勁風沙地',
+    name: 'regions.scouringSands',
     coordinates: [
       { lat: -116.99353141123936, lng: 58.571625447631035 },
       { lat: -116.87893101628282, lng: 60.05862886806311 },

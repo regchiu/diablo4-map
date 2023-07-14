@@ -17,7 +17,8 @@
     "@types/leaflet-fullscreen": "^1.0.6",
     "leaflet": "^1.9.4",
     "leaflet-fullscreen": "^1.0.2",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-i18n": "9.3.0-beta.19"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
