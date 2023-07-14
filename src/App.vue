@@ -68,7 +68,7 @@ function showAllControl() {
 
 function closeList() {
   const suggestions = document.getElementById('suggestions')
-  if (suggestions && suggestions.parentNode) {
+  if (suggestions?.parentNode) {
     suggestions.parentNode.removeChild(suggestions)
   }
 }
