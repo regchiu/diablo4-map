@@ -650,7 +650,7 @@ export const regions: Array<Region> = [
     ]
   },
   {
-    name: 'regions.theonyxWatchtower',
+    name: 'regions.theOnyxWatchtower',
     coordinates: [
       { lat: -65.57546757717228, lng: 59.300283330565904 },
       { lat: -66.52188638913267, lng: 57.641474039780334 },
