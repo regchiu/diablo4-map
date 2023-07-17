@@ -11,7 +11,7 @@ import { onMounted } from 'vue'
 import { markers } from './data/markers'
 import type { Markers, MarkerName } from './data/markers'
 import { regions } from './data/regions'
-import { locales } from './i18n'
+import { SUPPORT_LOCALES } from './i18n'
 import { useI18n } from 'vue-i18n'
 
 const MAP_LAT = -158
@@ -82,8 +82,21 @@ function searchControl() {
   searchControl.onAdd = function () {
     const input = L.DomUtil.create('input')
     input.placeholder = t('searchRegions')
-    const div = L.DomUtil.create('div')
-    div.appendChild(input)
+    const search = L.DomUtil.create('div')
+    search.className = 'search-box__input'
+    search.appendChild(input)
+    const icon = L.DomUtil.create('i')
+    icon.className = 'search-box__icon'
+    const searchBox = L.DomUtil.create('div')
+    L.DomEvent.addListener(icon, 'click', function () {
+      searchBox.classList.toggle('active')
+    })
+    searchBox.className = 'search-box'
+    searchBox.appendChild(search)
+    searchBox.appendChild(icon)
+    const container = L.DomUtil.create('div')
+    container.classList.add('leaflet-bar')
+    container.appendChild(searchBox)
     L.DomEvent.addListener(input, 'input', function (e: Event) {
       closeList()
       const value = (e as InputEvent).data
@@ -93,7 +106,7 @@ function searchControl() {
       const suggestions = L.DomUtil.create('div')
       suggestions.setAttribute('id', 'suggestions')
       suggestions.setAttribute('class', 'autocomplete-items')
-      div.appendChild(suggestions)
+      container.appendChild(suggestions)
       for (let i = 0; i < regions.length; i++) {
         if (
           t(regions[i].name).slice(0, value.length).toUpperCase() ===
@@ -117,7 +130,7 @@ function searchControl() {
         }
       }
     })
-    return div
+    return container
   }
   return searchControl
 }
@@ -141,10 +154,10 @@ function localeControl() {
   const localeControl = L.control.zoom({ position: 'topright' })
   localeControl.onAdd = function () {
     const select = L.DomUtil.create('select')
-    for (const locale of locales) {
+    for (const locale of SUPPORT_LOCALES) {
       const option = L.DomUtil.create('option')
-      option.text = locale.label
-      option.value = locale.value
+      option.text = t(`locales.${locale}`)
+      option.value = locale
       select.add(option)
     }
     select.value = locale.value
@@ -279,8 +292,69 @@ onMounted(() => {
   background-color: #e9e9e9;
 }
 
-.autocomplete-active {
-  background-color: dodgerblue !important;
-  color: #fff;
+.search-box {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+
+  &.active {
+    width: 360px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 7.5px;
+      height: 7.5px;
+      border: 1.5px solid #000;
+      border-radius: 50%;
+      transform: translate(-2px, -2px);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 1.5px;
+      height: 6px;
+      background: #000;
+      transform: translate(3px, 3px) rotate(315deg);
+    }
+  }
+
+  &__input {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 10px 0;
+    }
+  }
 }
 </style>

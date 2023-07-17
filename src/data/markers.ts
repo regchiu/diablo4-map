@@ -2162,7 +2162,7 @@ export const markers: Markers = {
         lng: 70.3474006249178
       },
       {
-        name: ' 深淵低語',
+        name: '深淵低語',
         lat: -28.002550800217758,
         lng: 77.20718991103882
       },
@@ -2697,412 +2697,412 @@ export const markers: Markers = {
         lng: 38.50018824401947
       },
       {
-        name: '少量毒液',
+        name: 'sideQuests.pinchOfPoison',
         lat: -118.72268306446281,
         lng: 24.05525101677827
       },
       {
-        name: '致命交易',
+        name: 'sideQuests.deadlyTrade',
         lat: -118.94852688790485,
         lng: 24.599380459765825
       },
       {
-        name: '無盡財富',
+        name: 'sideQuests.endlessFortune',
         lat: -118.45921824408163,
         lng: 23.8617101176838
       },
       {
-        name: '危險旅程',
+        name: 'sideQuests.unsafeTravels',
         lat: -97.70630380646824,
         lng: 36.09425484841279
       },
       {
-        name: '毀滅之路',
+        name: 'sideQuests.roadToRuin',
         lat: -98.25815698944714,
         lng: 49.726709089575635
       },
       {
-        name: '唯一的解藥',
+        name: 'sideQuests.theOnlyCure',
         lat: -100.53306361641958,
         lng: 50.1817997046888
       },
       {
-        name: '幻象',
+        name: 'sideQuests.mirage',
         lat: -92.82255633145434,
         lng: 45.26030588160364
       },
       {
-        name: '脫水',
+        name: 'sideQuests.desiccation',
         lat: -93.87567910168423,
         lng: 32.68550803148982
       },
       {
-        name: '朝聖者的步伐',
+        name: 'sideQuests.thePilgrimsFootsteps',
         lat: -92.44569823212345,
         lng: 28.259751063169375
       },
       {
-        name: '信仰象徵',
+        name: 'sideQuests.symbolOfFaith',
         lat: -87.58330958465916,
         lng: 30.502480970436025
       },
       {
-        name: '最後一根稻草',
+        name: 'sideQuests.finalStraw',
         lat: -116.48088998530525,
         lng: 26.9013419524957
       },
       {
-        name: '來自過去的聲音',
+        name: 'sideQuests.aVoiceFromThePast',
         lat: -115.3579164838751,
         lng: 28.735017529124065
       },
       {
-        name: '費斯傑利的埃澤爾',
+        name: 'sideQuests.izelOfTheVizjerei',
         lat: -115.41663116429774,
         lng: 28.741762448602486
       },
       {
-        name: '說話的石頭',
+        name: 'sideQuests.theSpeakingStone',
         lat: -124.10772958717953,
         lng: 23.751199471906546
       },
       {
-        name: '封住的卡茲拉祭品',
+        name: 'sideQuests.sealedKhazraOffering',
         lat: -117.11938635700618,
         lng: 29.79821123398071
       },
       {
-        name: '斑紋蘑菇',
+        name: 'sideQuests.spottedMushroom',
         lat: -78.02283322937788,
         lng: 101.93067753225264
       },
       {
-        name: '潮起之時',
+        name: 'sideQuests.whentheTideComesIn',
         lat: -126.52495965676198,
         lng: 24.496910700528304
       },
       {
-        name: '撒卡蘭姆之難',
+        name: 'sideQuests.zakarumsPlight',
         lat: -124.17307286925552,
         lng: 34.4170672944429
       },
       {
-        name: '鐵狼的榮譽',
+        name: 'sideQuests.aWolfsHonor',
         lat: -101.97282535597552,
         lng: 32.91984243922009
       },
       {
-        name: '奇怪的療法',
+        name: 'sideQuests.strangeRemedies',
         lat: -100.99438483103982,
         lng: 29.853466556869364
       },
       {
-        name: '焦油坑守護者',
+        name: 'sideQuests.guardiansOfThePit',
         lat: -101.88744896668057,
         lng: 33.55716369543774
       },
       {
-        name: '尋求庇護',
+        name: 'sideQuests.seekingRefuge',
         lat: -111.46760490375928,
         lng: 22.167056462182472
       },
       {
-        name: '價值勝金',
+        name: 'sideQuests.moreValueThanGold',
         lat: -103.9956978178623,
         lng: 31.08805190559005
       },
       {
-        name: '毒蛇之首',
+        name: 'sideQuests.headOfTheSnake',
         lat: -103.37181383025049,
         lng: 33.48980286204417
       },
       {
-        name: '落難之眾',
+        name: 'sideQuests.anErrantFlock',
         lat: -111.93561364093647,
         lng: 41.9487565942822
       },
       {
-        name: '贖罪之舉',
+        name: 'sideQuests.actsOfAtonement',
         lat: -120.7502986590882,
         lng: 25.13381960359007
       },
       {
-        name: '遲來的正義',
+        name: 'sideQuests.justiceDelayed',
         lat: -119.89114350346074,
         lng: 23.63500424333742
       },
       {
-        name: '墮落的騎士',
+        name: 'sideQuests.anUnlawfulOrder',
         lat: -114.61775209303795,
         lng: 45.39673586860799
       },
       {
-        name: '奧卡納斯的黑暗面',
+        name: 'sideQuests.shadowOfAlcarnus',
         lat: -105.29681867128225,
         lng: 53.60438980613077
       },
       {
-        name: '誤入歧途',
+        name: 'sideQuests.strayedFromThePath',
         lat: -108.62749950914593,
         lng: 61.735758409814764
       },
       {
-        name: '貪婪的死靈侍僧寶箱',
+        name: 'sideQuests.ravenousNecrolytesCache',
         lat: -94.93213090296672,
         lng: 77.40426526575516
       },
       {
-        name: '逾期工資',
+        name: 'sideQuests.paymentPastDue',
         lat: -108.96446815674963,
         lng: 62.53006840323734
       },
       {
-        name: '鐵狼蹤跡',
+        name: 'sideQuests.tracesOfIron',
         lat: -107.20137795876997,
         lng: 61.47574029123224
       },
       {
-        name: '以三為聖',
+        name: 'sideQuests.theWayOfTheThree',
         lat: -100.78995875605099,
         lng: 42.97710645746653
       },
       {
-        name: '北方屠夫',
+        name: 'sideQuests.butchersOfTheNorth',
         lat: -87.38162333168705,
         lng: 31.524174275532488
       },
       {
-        name: '心中重擔',
+        name: 'sideQuests.heartsBurden',
         lat: -100.94925141889357,
         lng: 115.95333567407042
       },
       {
-        name: '糾結回憶',
+        name: 'sideQuests.tangledMemories',
         lat: -96.504936042818,
         lng: 111.18426524967859
       },
       {
-        name: '記憶漸增',
+        name: 'sideQuests.growingReminders',
         lat: -95.9161394532912,
         lng: 110.45716882066534
       },
       {
-        name: '悔不當初',
+        name: 'sideQuests.unearthedRegrets',
         lat: -95.9161394532912,
         lng: 110.45716882066534
       },
       {
-        name: '宿怨',
+        name: 'sideQuests.badBlood',
         lat: -128.59052031329622,
         lng: 107.66008900290458
       },
       {
-        name: '強制服從',
+        name: 'sideQuests.broughtToHeel',
         lat: -123.63194329072911,
         lng: 122.02567770143472
       },
       {
-        name: '三人前來',
+        name: 'sideQuests.byThreeTheyCome',
         lat: -127.56738828299117,
         lng: 90.17605010919476
       },
       {
-        name: '水中喋血',
+        name: 'sideQuests.deadInTheWater',
         lat: -124.74982013399915,
         lng: 122.78249301146853
       },
       {
-        name: '債務償還',
+        name: 'sideQuests.aDebtRepaid',
         lat: -125.62753537425596,
         lng: 121.23048409410669
       },
       {
-        name: '為往事乾杯',
+        name: 'sideQuests.drinkToThePast',
         lat: -124.93978112715783,
         lng: 122.05003599142879
       },
       {
-        name: '如釋重負',
+        name: 'sideQuests.goodRiddance',
         lat: -124.93978112715783,
         lng: 122.05003599142879
       },
       {
-        name: '越線行為',
+        name: 'sideQuests.oversteppingTheMark',
         lat: -119.59924934709969,
         lng: 74.83318443121641
       },
       {
-        name: '斟酌使用',
+        name: 'sideQuests.discretionarySpending',
         lat: -124.93978112715783,
         lng: 122.05003599142879
       },
       {
-        name: '設下誘餌',
+        name: 'sideQuests.baitTheTrap',
         lat: -124.93978112715783,
         lng: 122.05003599142879
       },
       {
-        name: '現行犯',
+        name: 'sideQuests.deadToRights',
         lat: -123.0233492775977,
         lng: 112.31588012461535
       },
       {
-        name: '壞死研究',
+        name: 'sideQuests.necroticResearch',
         lat: -128.59052031329622,
         lng: 107.66008900290458
       },
       {
-        name: '毒害之心',
+        name: 'sideQuests.poisonedHearts',
         lat: -120.25115022436626,
         lng: 87.98813371786405
       },
       {
-        name: '大義',
+        name: 'sideQuests.theGreaterGood',
         lat: -124.98930414662115,
         lng: 121.6205701795742
       },
       {
-        name: '洶湧水域',
+        name: 'sideQuests.turbulentWaters',
         lat: -124.8279787126049,
         lng: 120.81754186228437
       },
       {
-        name: '大量的閃爍礦石',
+        name: 'sideQuests.glitteringAbundance',
         lat: -119.55358564682118,
         lng: 74.64344307191546
       },
       {
-        name: '女巫之怒',
+        name: 'sideQuests.IreOfTheWitch',
         lat: -110.31110540818918,
         lng: 112.79108768297635
       },
       {
-        name: '感到威脅',
+        name: 'sideQuests.perceivedThreat',
         lat: -109.93633900093556,
         lng: 113.1026793998414
       },
       {
-        name: '腐朽之歌',
+        name: 'sideQuests.songOfRot',
         lat: -109.93633900093556,
         lng: 113.1026793998414
       },
       {
-        name: '結帳時刻',
+        name: 'sideQuests.closingTheBook',
         lat: -100.71674953334642,
         lng: 92.60472183596883
       },
       {
-        name: '一根小紅枝',
+        name: 'sideQuests.oneLittleRedSprig',
         lat: -122.33639046269795,
         lng: 110.3989681180918
       },
       {
-        name: '古舊雕像',
+        name: 'sideQuests.timewornEffigy',
         lat: -122.33639046269795,
         lng: 110.3989681180918
       },
       {
-        name: '南迦利的毒液',
+        name: 'sideQuests.venomOfTheNangari',
         lat: -122.33639046269795,
         lng: 110.3989681180918
       },
       {
-        name: '沼澤防護',
+        name: 'sideQuests.theSwampsProtection',
         lat: -123.2587972083241,
         lng: 109.84788757904792
       },
       {
-        name: '血肉之身',
+        name: 'sideQuests.fleshAndBlood',
         lat: -116.76603769820579,
         lng: 91.20996673998356
       },
       {
-        name: '旅人的迷信',
+        name: 'sideQuests.travelersSuperstition',
         lat: -109.85605926980074,
         lng: 125.28697881133182
       },
       {
-        name: '沼澤贈禮',
+        name: 'sideQuests.giftOfTheSwamp',
         lat: -107.79435793245133,
         lng: 92.42820523145306
       },
       {
-        name: '靈芝妙藥',
+        name: 'sideQuests.fungalRemedies',
         lat: -100.79019443966536,
         lng: 90.16055741205223
       },
       {
-        name: '黴之心',
+        name: 'sideQuests.heartOfMold',
         lat: -99.08967824129316,
         lng: 92.56263236027169
       },
       {
-        name: '鍊住的撒卡蘭姆容器',
+        name: 'sideQuests.chainedZakarumRepository',
         lat: -98.6307727837199,
         lng: 105.20923856710324
       },
       {
-        name: '最後手段',
+        name: 'sideQuests.desperateRemedies',
         lat: -99.72985385874625,
         lng: 93.66202478145568
       },
       {
-        name: '自身的問題',
+        name: 'sideQuests.aQuestionOfSelf',
         lat: -101.6000622594438,
         lng: 95.93968689178519
       },
       {
-        name: '過去的遺憾',
+        name: 'sideQuests.pastRegrets',
         lat: -101.53333433613358,
         lng: 96.08869365004402
       },
       {
-        name: '無藥可救',
+        name: 'sideQuests.whatCantBeCured',
         lat: -93.30659155440668,
         lng: 96.84309374873624
       },
       {
-        name: '遺留',
+        name: 'sideQuests.leftBehind',
         lat: -124.24333604678085,
         lng: 96.46352266874379
       },
       {
-        name: '注定失敗',
+        name: 'sideQuests.lostCause',
         lat: -123.0193426561539,
         lng: 97.17480240884916
       },
       {
-        name: '不計代價',
+        name: 'sideQuests.atAnyCost',
         lat: -116.10491569952815,
         lng: 93.60123214475945
       },
       {
-        name: '信仰的殘餘',
+        name: 'sideQuests.remnantsOfFaith',
         lat: -117.9973667413291,
         lng: 73.44072673138533
       },
       {
-        name: '失落傳承',
+        name: 'sideQuests.lostLegacy',
         lat: -110.43439739894117,
         lng: 95.69354151151848
       },
       {
-        name: '付出的代價',
+        name: 'sideQuests.aPriceToPay',
         lat: -117.48260426715709,
         lng: 74.01781497304685
       },
       {
-        name: '緊握在手',
+        name: 'sideQuests.coiledGrasp',
         lat: -119.83089687954487,
         lng: 73.05809245652058
       },
       {
-        name: '異端份子',
+        name: 'sideQuests.toWalkADarkPath',
         lat: -119.88050828036361,
         lng: 74.3091719314767
       },
       {
-        name: '走上不歸路',
+        name: 'sideQuests.toWalkADarkPath',
         lat: -117.48021797056188,
         lng: 74.92425557107336
       }
