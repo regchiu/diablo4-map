@@ -81,7 +81,7 @@ function searchControl() {
   const searchControl = L.control.zoom({ position: 'topleft' })
   searchControl.onAdd = function () {
     const input = L.DomUtil.create('input')
-    input.placeholder = t('searchRegions')
+    input.placeholder = t('searchMarkers')
     const search = L.DomUtil.create('div')
     search.className = 'search-box__input'
     search.appendChild(input)
@@ -99,7 +99,7 @@ function searchControl() {
     container.appendChild(searchBox)
     L.DomEvent.addListener(input, 'input', function (e: Event) {
       closeList()
-      const value = (e as InputEvent).data
+      const value = (e.target as HTMLInputElement).value
       if (!value) {
         return
       }
@@ -107,23 +107,28 @@ function searchControl() {
       suggestions.setAttribute('id', 'suggestions')
       suggestions.setAttribute('class', 'autocomplete-items')
       container.appendChild(suggestions)
-      for (let i = 0; i < regions.length; i++) {
+      const coordinates = Object.values(markers).flatMap(
+        (marker) => marker.coordinates
+      )
+      for (let i = 0; i < coordinates.length; i++) {
+        let compoundName = t(coordinates[i].name)
+        if (coordinates[i].reward) {
+          compoundName += ` / ${t(coordinates[i].reward || '')}`
+        }
         if (
-          t(regions[i].name).slice(0, value.length).toUpperCase() ===
-          value.toUpperCase()
+          compoundName.slice(0, value.length).toUpperCase() ===
+          value.slice(0).toUpperCase()
         ) {
           const suggestion = L.DomUtil.create('div')
-          suggestion.innerHTML = `<strong>${t(regions[i].name).slice(
+          suggestion.innerHTML = `<strong>${compoundName.slice(
             0,
             value.length
           )}</strong>`
-          suggestion.innerHTML += t(regions[i].name).slice(value.length)
-          suggestion.innerHTML += `<input type="hidden" value="${t(
-            regions[i].name
-          )}">`
+          suggestion.innerHTML += compoundName.slice(value.length)
+          suggestion.innerHTML += `<input type="hidden" value="${compoundName}">`
           suggestion.addEventListener('click', function () {
             input.value = suggestion.getElementsByTagName('input')[0].value
-            map.setView(regions[i].coordinates[0], 5)
+            map.setView([coordinates[i].lat, coordinates[i].lng], 5)
             closeList()
           })
           suggestions.appendChild(suggestion)
@@ -281,15 +286,17 @@ onMounted(() => {
   vertical-align: middle;
 }
 
-.autocomplete-items div {
-  padding: 10px;
-  cursor: pointer;
-  background-color: #fff;
-  border-bottom: 1px solid #d4d4d4;
-}
+.autocomplete-items {
+  div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
 
-.autocomplete-items div:hover {
-  background-color: #e9e9e9;
+    &:hover {
+      background-color: #e9e9e9;
+    }
+  }
 }
 
 .search-box {
