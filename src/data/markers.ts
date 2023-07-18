@@ -1067,37 +1067,37 @@ export const markers: Markers = {
         lng: 37.027557309165545
       },
       {
-        name: '奇歐瓦夏',
+        name: 'coordinates.kyovashad',
         lat: -76.97675150712641,
         lng: 102.33336984277153
       },
       {
-        name: '命運藏身處',
+        name: 'coordinates.fatesRetreat',
         lat: -65.80313865348977,
         lng: 72.73362943043253
       },
       {
-        name: '馬格雷夫',
+        name: 'coordinates.margrave',
         lat: -88.3550261193662,
         lng: 100.62923206468484
       },
       {
-        name: '梅內斯德',
+        name: 'coordinates.menestad',
         lat: -68.14707111901225,
         lng: 94.72978382482391
       },
       {
-        name: '大熊部族營地',
+        name: 'sideQuests.bearTribeRefuge',
         lat: -71.05013349910641,
         lng: 117.51350329315943
       },
       {
-        name: '葉雷斯納',
+        name: 'coordinates.yelesna',
         lat: -89.41303932459368,
         lng: 113.5480502619944
       },
       {
-        name: '艾祖達',
+        name: 'coordinates.alzuuda',
         lat: -79.51061550535574,
         lng: 37.01689503470624
       },
@@ -1107,92 +1107,92 @@ export const markers: Markers = {
         lng: 72.10546830503492
       },
       {
-        name: '克巴杜',
+        name: 'coordinates.kedBardu',
         lat: -58.35807003917582,
         lng: 53.555908856517405
       },
       {
-        name: '馬羅文',
+        name: 'coordinates.marowen',
         lat: -27.226562500000778,
         lng: 72.37499999999967
       },
       {
-        name: '肥鵝之下旅店',
+        name: 'coordinates.underTheFatGooseInn',
         lat: -52.259668136753184,
         lng: 106.70454892553087
       },
       {
-        name: '布拉斯泰',
+        name: 'coordinates.braestaig',
         lat: -34.880270033909916,
         lng: 87.256707580714
       },
       {
-        name: '提爾梅爾',
+        name: 'coordinates.tirmair',
         lat: -47.708676464736634,
         lng: 109.110393959747
       },
       {
-        name: '科瑞迦',
+        name: 'coordinates.cerrigar',
         lat: -47.28488786570015,
         lng: 87.65727921785975
       },
       {
-        name: '死水鎮',
+        name: 'coordinates.backwater',
         lat: -125.41706990664966,
         lng: 120.54786289833535
       },
       {
-        name: '塔薩拉克',
+        name: 'coordinates.tarsarak',
         lat: -106.53012156467568,
         lng: 63.3497970233405
       },
       {
-        name: '鐵狼衛隊營地',
+        name: 'coordinates.ironWolvesEncampment',
         lat: -102.48555505897383,
         lng: 32.3992760337117
       },
       {
-        name: '登沙爾',
+        name: 'coordinates.denshar',
         lat: -117.07004010025358,
         lng: 44.35371801459287
       },
       {
-        name: '威金哈尼',
+        name: 'coordinates.wejinhani',
         lat: -99.46968860896584,
         lng: 91.87014414255597
       },
       {
-        name: '諾斯托瓦',
+        name: 'coordinates.nostrava',
         lat: -80.53100771364407,
         lng: 88.97268578513396
       },
       {
-        name: '圖爾鐸拉',
+        name: 'coordinates.turDulra',
         lat: -40.48406041118665,
         lng: 66.62355708930474
       },
       {
-        name: '拉哈特堡壘遺跡：內部庭院',
+        name: 'coordinates.ruinsOfRakhatKeepInnerCourt',
         lat: -110.05055717253545,
         lng: 97.46368524834367
       },
       {
-        name: '帝國書庫',
+        name: 'coordinates.imperialLibrary',
         lat: -101.41522738489705,
         lng: 38.311625036592474
       },
       {
-        name: '寇巴克',
+        name: 'coordinates.corbach',
         lat: -39.66046402087286,
         lng: 100.6852237324947
       },
       {
-        name: '札賓寨',
+        name: 'coordinates.zarbinzet',
         lat: -118.06683448665603,
         lng: 74.9203676698893
       },
       {
-        name: '吉庫爾',
+        name: 'coordinates.geaKul',
         lat: -121.34374999999824,
         lng: 24.281250000000284
       },
@@ -1207,22 +1207,22 @@ export const markers: Markers = {
         lng: 82.37491747578123
       },
       {
-        name: '低語之樹',
+        name: 'coordinates.theTreeOfWhispers',
         lat: -97.10109774529298,
         lng: 116.87403190977183
       },
       {
-        name: '涅維斯克',
+        name: 'coordinates.nevesk',
         lat: -88.09798367747581,
         lng: 89.97382034002986
       },
       {
-        name: '隱密高地',
+        name: 'coordinates.hiddenOverloo',
         lat: -74.88812331683856,
         lng: 72.97429640448532
       },
       {
-        name: '吉倫戴',
+        name: 'coordinates.jirandai',
         lat: -91.25201964639106,
         lng: 53.16758999886082
       }
@@ -1237,97 +1237,97 @@ export const markers: Markers = {
     },
     coordinates: [
       {
-        name: '哀悼平原',
-        reward: '獎勵: 狂暴撕扯之 精華',
+        name: 'dungeons.mournfield',
+        reward: 'rewards.ofBerserkRippingAspect',
         job: 'jobs.barbarian',
         lat: -65.79580300099343,
         lng: 65.00786906315545
       },
       {
-        name: '黑瑪瑙堡',
-        reward: '獎勵: 暴風增長 精華',
+        name: 'dungeons.onyxHold',
+        reward: 'rewards.stormSwellAspect',
         job: 'jobs.sorcerer',
         lat: -66.86996053380324,
         lng: 59.4833676571817
       },
       {
-        name: '崩塌的赫克馬',
-        reward: '獎勵: 分裂能量之 精華',
+        name: 'dungeons.crumblingHekma',
+        reward: 'rewards.ofSplinteringEnergyAspect',
         job: 'jobs.sorcerer',
         lat: -120.54151243723408,
         lng: 39.5328089077469
       },
       {
-        name: '海濱傾灣',
-        reward: '獎勵: 報復之 精華',
+        name: 'dungeons.seasideDescent',
+        reward: 'rewards.ofRetaliationAspect',
         job: 'jobs.druid',
         lat: -58.21091508247181,
         lng: 47.0427613055117
       },
       {
-        name: '棄誓者石墓',
-        reward: '獎勵: 巨猛 精華',
+        name: 'dungeons.sepulcherOfTheForsworn',
+        reward: 'rewards.hulkingAspect',
         job: 'jobs.necromancer',
         lat: -88.13245240607313,
         lng: 37.23756288069859
       },
       {
-        name: '黑暗深谷',
-        reward: '獎勵: 力量之 精華',
+        name: 'dungeons.darkRavine',
+        reward: 'rewards.ofMightAspect',
         lat: -56.151217055844285,
         lng: 60.32760183626321
       },
       {
-        name: '聖光守望',
-        reward: '獎勵: 烈燃之 精華',
+        name: 'dungeons.lightsWatch',
+        reward: 'rewards.ofConflagrationAspect',
         job: 'jobs.sorcerer',
         lat: -83.68943328987645,
         lng: 100.48054929819133
       },
       {
-        name: '巨鎚林地',
-        reward: '獎勵: 消解 精華',
+        name: 'dungeons.maulwood',
+        reward: 'rewards.slakingAspect',
         job: 'jobs.barbarian',
         lat: -87.63277368321893,
         lng: 103.38681434087115
       },
       {
-        name: '火山口之門',
-        reward: '獎勵: 躲避 精華',
+        name: 'dungeons.calderaGate',
+        reward: 'rewards.eludingAspect',
         lat: -66.85523030790694,
         lng: 85.57760552994893
       },
       {
-        name: '廢棄小屋',
-        reward: '獎勵: 爆魄之 精華',
+        name: 'dungeons.derelictLodge',
+        reward: 'rewards.ofExplosiveVerveAspect',
         job: 'jobs.rogue',
         lat: -75.22526872715302,
         lng: 88.78014631513237
       },
       {
-        name: '諾斯托瓦密林',
-        reward: '獎勵: 撕裂血肉 精華',
+        name: 'dungeons.nostravaDeepwood',
+        reward: 'rewards.fleshRendingAspect',
         job: 'jobs.necromancer',
         lat: -72.19010568122089,
         lng: 88.24158363974927
       },
       {
-        name: '慈悲之觸',
-        reward: '獎勵: 鮮血尋覓者 精華',
+        name: 'dungeons.mercysReach',
+        reward: 'rewards.bloodSeekersAspect',
         job: 'jobs.necromancer',
         lat: -58.793141991248866,
         lng: 90.81513859322334
       },
       {
-        name: '科卓岡兵營',
-        reward: '獎勵: 失血之 精華',
+        name: 'dungeons.korDraganBarracks',
+        reward: 'rewards.ofAnemiaAspect',
         job: 'jobs.barbarian',
         lat: -60.72471651303039,
         lng: 102.05073120820899
       },
       {
-        name: '禁忌之城',
-        reward: '獎勵: 夜嚎 精華',
+        name: 'dungeons.forbiddenCity',
+        reward: 'rewards.nighthowlersAspect',
         job: 'jobs.druid',
         lat: -63.52929260278188,
         lng: 95.85005898797382
@@ -2013,15 +2013,15 @@ export const markers: Markers = {
         lng: 131.5211105447874
       },
       {
-        name: '不朽放射',
+        name: 'dungeons.immortalEmanation',
         reward: '獎勵: 割裂 精華',
         job: 'jobs.druid',
         lat: -78.8698506788668,
         lng: 111.26255344170309
       },
       {
-        name: '遺忘深淵',
-        reward: '獎勵: 刺骨冰寒之 精華',
+        name: 'dungeons.forgottenDepths',
+        reward: 'rewards.ofBitingColdAspect',
         job: 'jobs.sorcerer',
         lat: -67.36362932449177,
         lng: 51.91306442967338
@@ -2127,572 +2127,572 @@ export const markers: Markers = {
         lng: 94.5189535469791
       },
       {
-        name: '偷天妙手',
+        name: 'sideQuests.stolenArtifice',
         lat: -33.60245239785788,
         lng: 87.82357535486894
       },
       {
-        name: '為何心憂',
+        name: 'sideQuests.whatAilsThee',
         lat: -47.292842187684144,
         lng: 87.65403930020636
       },
       {
-        name: '初出茅廬的商人',
+        name: 'sideQuests.theFledglingMerchant',
         lat: -46.26420105289388,
         lng: 86.15849331140396
       },
       {
-        name: '劫匪之血',
+        name: 'sideQuests.bloodOfBrigands',
         lat: -46.8048298037398,
         lng: 89.11480035493017
       },
       {
-        name: '鹹水命運',
+        name: 'sideQuests.aBrinyFate',
         lat: -27.68084266664262,
         lng: 70.68553021274377
       },
       {
-        name: '浸濕的契約',
+        name: 'sideQuests.aSoddenPact',
         lat: -25.390292539768318,
         lng: 74.32219050968392
       },
       {
-        name: '被封印的水手器皿',
+        name: 'sideQuests.wardedSailorsVessel',
         lat: -29.661763445176728,
         lng: 70.3474006249178
       },
       {
-        name: '深淵低語',
+        name: 'sideQuests.whispersFromBelow',
         lat: -28.002550800217758,
         lng: 77.20718991103882
       },
       {
-        name: '深邃陰影',
+        name: 'sideQuests.aDeepeningShadow',
         lat: -39.87092948847917,
         lng: 73.11482046925167
       },
       {
-        name: '老方法',
+        name: 'sideQuests.theOldWays',
         lat: -39.87092948847917,
         lng: 73.11482046925167
       },
       {
-        name: '橡樹之女',
+        name: 'sideQuests.daughterOfTheOak',
         lat: -45.60614294120268,
         lng: 89.44091279364177
       },
       {
-        name: '殘留於灰燼中',
+        name: 'sideQuests.leftInAshes',
         lat: -40.11639397281506,
         lng: 67.35047679553689
       },
       {
-        name: '所託非人',
+        name: 'sideQuests.theWrongHands',
         lat: -50.10610911071446,
         lng: 98.86335912840275
       },
       {
-        name: '不同的野獸',
+        name: 'sideQuests.aDifferentBeast',
         lat: -50.10610911071446,
         lng: 98.86335912840275
       },
       {
-        name: '破損的熊',
+        name: 'sideQuests.theBrokenBear',
         lat: -50.10610911071446,
         lng: 98.86335912840275
       },
       {
-        name: '永遠忠誠',
+        name: 'sideQuests.everFaithful',
         lat: -50.42071727540759,
         lng: 98.53933790926743
       },
       {
-        name: '野性之月',
+        name: 'sideQuests.feralMoon',
         lat: -51.62806551077173,
         lng: 93.22475371343614
       },
       {
-        name: '狼中翹楚',
+        name: 'sideQuests.firstAmongWolves',
         lat: -50.23108034721865,
         lng: 98.55886577657827
       },
       {
-        name: '自投羅網',
+        name: 'sideQuests.theSnare',
         lat: -54.0213736934986,
         lng: 93.89093969056574
       },
       {
-        name: '獠牙畢露',
+        name: 'sideQuests.withFangsBared',
         lat: -50.23108034721865,
         lng: 98.55886577657827
       },
       {
-        name: '布雷加的編年史',
+        name: 'sideQuests.braegasChronicles',
         lat: -51.61062492331051,
         lng: 81.96480280845641
       },
       {
-        name: '援助要求',
+        name: 'sideQuests.aPleaForAid',
         lat: -51.61062492331051,
         lng: 81.96480280845641
       },
       {
-        name: '灰燼火堆',
+        name: 'sideQuests.pyreOfAsh',
         lat: -51.70746142835278,
         lng: 106.43227802745915
       },
       {
-        name: '利爪封喉',
+        name: 'sideQuests.clawsAtTheThroat',
         lat: -54.775207733967534,
         lng: 104.91396425369251
       },
       {
-        name: '賭上榮譽',
+        name: 'sideQuests.wageredHonor',
         lat: -51.360328924880626,
         lng: 106.73085116611699
       },
       {
-        name: '懷念肥鵝',
+        name: 'sideQuests.rememberingTheGoose',
         lat: -51.68515986634578,
         lng: 106.40467981981169
       },
       {
-        name: '黑林之熊',
+        name: 'sideQuests.theBearOfBlackweald',
         lat: -51.561926796497346,
         lng: 122.12349376077009
       },
       {
-        name: '貪婪掠食者的祭品',
+        name: 'sideQuests.ravenousPredatorsOffering',
         lat: -32.2941431942005,
         lng: 86.93144930211102
       },
       {
-        name: '飢腸轆轆的史湛德',
+        name: 'sideQuests.theStarvingStrand',
         lat: -35.51682201579253,
         lng: 88.16585792805063
       },
       {
-        name: '奉獻傳遞',
+        name: 'sideQuests.votivePassing',
         lat: -35.381009333028665,
         lng: 86.86076018967353
       },
       {
-        name: '煙霧訊號',
+        name: 'sideQuests.smokeSignals',
         lat: -39.61559575279275,
         lng: 100.83004805160098
       },
       {
-        name: '新生咒',
+        name: 'sideQuests.reclamation',
         lat: -39.61559575279275,
         lng: 100.83004805160098
       },
       {
-        name: '瓶中信',
+        name: 'sideQuests.messageInABottle',
         lat: -35.58419806904219,
         lng: 105.44130503247615
       },
       {
-        name: '先知',
+        name: 'sideQuests.theSeer',
         lat: -43.066357392163034,
         lng: 97.90505039412523
       },
       {
-        name: '紀錄傳統之道',
+        name: 'sideQuests.chroniclingTheOldWays',
         lat: -55.79448044508774,
         lng: 80.30466900286206
       },
       {
-        name: '遏止潮汐',
+        name: 'sideQuests.stemmingTheTide',
         lat: -26.982040750122238,
         lng: 72.60650684323245
       },
       {
-        name: '擺平帳務',
+        name: 'sideQuests.settlingTheTab',
         lat: -48.053864578390474,
         lng: 110.22660449893175
       },
       {
-        name: '撫育自然',
+        name: 'sideQuests.tendingNature',
         lat: -40.22745987607315,
         lng: 65.47397539829014
       },
       {
-        name: '預卜者',
+        name: 'sideQuests.theDiviner',
         lat: -41.73789723947953,
         lng: 68.87382716856472
       },
       {
-        name: '獲得的滋味',
+        name: 'sideQuests.anAcquiredTaste',
         lat: -46.51314187054132,
         lng: 109.90090441337604
       },
       {
-        name: '害蟲和瘟疫',
+        name: 'sideQuests.ofPestsAndPestilence',
         lat: -46.48866023510166,
         lng: 109.15893381695408
       },
       {
-        name: '雲遊學者',
+        name: 'sideQuests.theTravelingScholar',
         lat: -49.82049003058524,
         lng: 67.21009999975477
       },
       {
-        name: '先祖的呼喚',
+        name: 'sideQuests.callOfTheAncients',
         lat: -70.07331329901932,
         lng: 116.72364082306106
       },
       {
-        name: '破碎貢品',
+        name: 'sideQuests.shatteredTribute',
         lat: -69.77160881221135,
         lng: 117.79455142269214
       },
       {
-        name: '血腥展示',
+        name: 'sideQuests.goryDisplay',
         lat: -73.02472028050511,
         lng: 115.68751515750863
       },
       {
-        name: '巨獸挑戰',
+        name: 'sideQuests.theBeastsChallenge',
         lat: -69.77160881221135,
         lng: 117.79455142269214
       },
       {
-        name: '淨化烈焰',
+        name: 'sideQuests.theCleansingFlame',
         lat: -88.3569999696363,
         lng: 100.02033372242644
       },
       {
-        name: '血濃於水',
+        name: 'sideQuests.boundByBlood',
         lat: -88.05886019749525,
         lng: 100.14345059325507
       },
       {
-        name: '申冤哭喊',
+        name: 'sideQuests.criesOfInnocence',
         lat: -74.7872801903525,
         lng: 107.50960955480329
       },
       {
-        name: '飢饞的死者',
+        name: 'sideQuests.ravenousDead',
         lat: -89.39698337836671,
         lng: 113.09136914185142
       },
       {
-        name: '冰冷的信仰',
+        name: 'sideQuests.aColdFaith',
         lat: -82.83558101557165,
         lng: 105.70026281437214
       },
       {
-        name: '絕望深淵',
+        name: 'sideQuests.depthsOfDespair',
         lat: -77.87918406643719,
         lng: 103.97960145625319
       },
       {
-        name: '恐怖的殉道者',
+        name: 'sideQuests.theDreadMartyr',
         lat: -71.97825557238033,
         lng: 111.44496080558866
       },
       {
-        name: '鮮血信仰',
+        name: 'sideQuests.faithInBlood',
         lat: -76.92537247920012,
         lng: 102.59715804735076
       },
       {
-        name: '原諒我',
+        name: 'sideQuests.forgiveMe',
         lat: -66.79021109080068,
         lng: 94.53370989920045
       },
       {
-        name: '冰封晶球',
+        name: 'sideQuests.iceboundGeode',
         lat: -119.55358564682118,
         lng: 74.64344307191546
       },
       {
-        name: '旅人的祈禱',
+        name: 'sideQuests.travelersPrayer',
         lat: -88.90879423171161,
         lng: 114.5048273988358
       },
       {
-        name: '錢用在刀口上',
+        name: 'sideQuests.goldWellSpent',
         lat: -68.50083222413774,
         lng: 94.58333954689093
       },
       {
-        name: '勇士之鎚',
+        name: 'sideQuests.hammerOfTheChampion',
         lat: -70.955447607045,
         lng: 117.32576479204423
       },
       {
-        name: '擁有權傳承',
+        name: 'sideQuests.chainOfPossession',
         lat: -67.58699846998323,
         lng: 93.50536003601611
       },
       {
-        name: '未竟傳承',
+        name: 'sideQuests.legacyUnmade',
         lat: -67.58699846998323,
         lng: 93.50536003601611
       },
       {
-        name: '靈魂疾病',
+        name: 'sideQuests.maladyOfTheSoul',
         lat: -78.1365800337491,
         lng: 103.14773787184822
       },
       {
-        name: '梅內斯德的稅金',
+        name: 'sideQuests.menestadCoffers',
         lat: -76.93085212323354,
         lng: 101.58883676602372
       },
       {
-        name: '聖光守望的傳承',
+        name: 'sideQuests.legaciesOfLightsWatch',
         lat: -87.67116065190467,
         lng: 100.27658175501234
       },
       {
-        name: '鮮血佈道',
+        name: 'sideQuests.bloodSermon',
         lat: -65.48384627696163,
         lng: 124.93759787310954
       },
       {
-        name: '封印之門',
+        name: 'sideQuests.theSealedDoor',
         lat: -77.96164387100467,
         lng: 104.09974349360006
       },
       {
-        name: '眼見瘋狂',
+        name: 'sideQuests.sightToMadness',
         lat: -75.09246101047201,
         lng: 101.87742506754975
       },
       {
-        name: '更好的日子',
+        name: 'sideQuests.betterDays',
         lat: -87.67116065190467,
         lng: 100.27658175501234
       },
       {
-        name: '未定的結局',
+        name: 'sideQuests.unwrittenEnd',
         lat: -87.67116065190467,
         lng: 100.27658175501234
       },
       {
-        name: '正義木偶',
+        name: 'sideQuests.righteousIdol',
         lat: -88.70943535443112,
         lng: 114.36147576957194
       },
       {
-        name: '飢渴的骸骨寶箱',
+        name: 'sideQuests.hungeringBoneCache',
         lat: -84.40688367238153,
         lng: 86.59817959076513
       },
       {
-        name: '冰霜花',
+        name: 'sideQuests.frostbloom',
         lat: -78.02283322937788,
         lng: 101.93067753225264
       },
       {
-        name: '驅魂師的寶箱',
+        name: 'sideQuests.exorcistsCache',
         lat: -69.17362056172524,
         lng: 113.72821913731946
       },
       {
-        name: '溫泉的奧秘',
+        name: 'sideQuests.secretOfTheSpring',
         lat: -69.90771609949314,
         lng: 104.72118915331609
       },
       {
-        name: '振奮精神',
+        name: 'sideQuests.raisingSpirits',
         lat: -75.89095709585851,
         lng: 103.7290085526623
       },
       {
-        name: '不撓之軀',
+        name: 'sideQuests.unyieldingFlesh',
         lat: -89.63434623845966,
         lng: 114.47502015642465
       },
       {
-        name: '涅維斯克樵夫',
+        name: 'sideQuests.theWoodsmanOfNevesk',
         lat: -88.20289234630924,
         lng: 90.51880394312603
       },
       {
-        name: '感性的價值',
+        name: 'sideQuests.sentimentalValue',
         lat: -74.71666348740565,
         lng: 72.27912789125634
       },
       {
-        name: '血與汗',
+        name: 'sideQuests.bloodAndSweat',
         lat: -89.87371240927449,
         lng: 73.9870357553397
       },
       {
-        name: '封住的公牛部族寶箱',
+        name: 'sideQuests.sealedOxenTribeCache',
         lat: -63.2220495510369,
         lng: 66.71998882018819
       },
       {
-        name: '駁斥聖母',
+        name: 'sideQuests.rejectTheMother',
         lat: -60.62048543458818,
         lng: 61.48472369927114
       },
       {
-        name: '挖掘信仰',
+        name: 'sideQuests.exhumingFaith',
         lat: -69.30772453828514,
         lng: 52.344621461104225
       },
       {
-        name: '不幸之人',
+        name: 'sideQuests.theUnluckyOnes',
         lat: -78.13487132754513,
         lng: 35.00702684532742
       },
       {
-        name: '惡意奉獻',
+        name: 'sideQuests.malignDevotion',
         lat: -57.34339315853524,
         lng: 52.05188017422249
       },
       {
-        name: '清除血肉',
+        name: 'sideQuests.cullingOfFlesh',
         lat: -76.2033262662154,
         lng: 55.32555187879615
       },
       {
-        name: '燒焦的債務',
+        name: 'sideQuests.scorchedDebts',
         lat: -69.18838024807333,
         lng: 54.56046005184777
       },
       {
-        name: '追獵聖物獵手',
+        name: 'sideQuests.huntingTheRelicHunter',
         lat: -72.78096450237318,
         lng: 79.9631816821953
       },
       {
-        name: '眼見不為憑',
+        name: 'sideQuests.moreThanMeetsTheEye',
         lat: -87.83504914522689,
         lng: 75.87879421935422
       },
       {
-        name: '廢物或寶物',
+        name: 'sideQuests.treasureOrTrash',
         lat: -65.54099955343926,
         lng: 72.9734422443767
       },
       {
-        name: '神兵坩堝',
+        name: 'sideQuests.crucibleOfWorth',
         lat: -59.22217455070444,
         lng: 53.55205040913019
       },
       {
-        name: '渴求新生',
+        name: 'sideQuests.hungerForANewLife',
         lat: -52.13015999067294,
         lng: 66.62158368491586
       },
       {
-        name: '塵土菊',
+        name: 'sideQuests.dustDaisy',
         lat: -57.71182556865344,
         lng: 54.99943944008456
       },
       {
-        name: '熾烈之心',
+        name: 'sideQuests.blisteredHeart',
         lat: -91.0792046361757,
         lng: 54.54962105460736
       },
       {
-        name: '竊賊的飢荒',
+        name: 'sideQuests.thievesFamine',
         lat: -57.7183657889514,
         lng: 52.99534419488813
       },
       {
-        name: '無惡不懲',
+        name: 'sideQuests.noDeedUnpunished',
         lat: -60.31224072748225,
         lng: 59.625040420025144
       },
       {
-        name: '親友',
+        name: 'sideQuests.kithAndKin',
         lat: -68.64828178535969,
         lng: 59.6052180147458
       },
       {
-        name: '一磅肉塊',
+        name: 'sideQuests.aPoundOfFlesh',
         lat: -67.52787134323549,
         lng: 57.967439640959796
       },
       {
-        name: '月亮的相位',
+        name: 'sideQuests.phasesOfTheMoon',
         lat: -87.66093787513265,
         lng: 72.31570950694275
       },
       {
-        name: '驕兵之敗',
+        name: 'sideQuests.consumedByPride',
         lat: -75.7012023258624,
         lng: 56.38394461476642
       },
       {
-        name: '氣節不保',
+        name: 'sideQuests.corrodingMettle',
         lat: -57.40417007058337,
         lng: 53.96605297763905
       },
       {
-        name: '黯淡護身符',
+        name: 'sideQuests.tarnishedAmulet',
         lat: -92.81881485407666,
         lng: 53.48748768643729
       },
       {
-        name: '來自遠方的貨幣',
+        name: 'sideQuests.currenciesfromAfar',
         lat: -92.90893437611021,
         lng: 53.44103904880649
       },
       {
-        name: '鹽生鹽',
+        name: 'sideQuests.saltBegetsSalt',
         lat: -93.51352176779787,
         lng: 54.33678791857683
       },
       {
-        name: '保存古老傳統',
+        name: 'sideQuests.keepingTheOldTraditions',
         lat: -84.05041220569112,
         lng: 63.111780891004145
       },
       {
-        name: '受亞瑞特認可',
+        name: 'sideQuests.worthyOfArreat',
         lat: -75.8889832455884,
         lng: 56.48120105196166
       },
       {
-        name: '奇珍逸品',
+        name: 'sideQuests.curiousCurio',
         lat: -65.80313865348977,
         lng: 72.73362943043253
       },
       {
-        name: '以愛之名',
+        name: 'sideQuests.inTheNameOfLove',
         lat: -65.54099955343926,
         lng: 72.9734422443767
       },
       {
-        name: '罪孽重擔',
+        name: 'sideQuests.weightOfSin',
         lat: -72.00447537447573,
         lng: 77.78133277301545
       },
       {
-        name: '第一手消息',
+        name: 'sideQuests.firsthandKnowledge',
         lat: -71.8506623556666,
         lng: 45.99017096752068
       },
       {
-        name: '僅剩之物',
+        name: 'sideQuests.whatRemains',
         lat: -75.48348958711513,
         lng: 72.92160356192254
       },
       {
-        name: '鐵狼武器',
+        name: 'sideQuests.theWeaponOfAWolf',
         lat: -101.7452728263295,
         lng: 38.4278791727553
       },
       {
-        name: '再次服侍',
+        name: 'sideQuests.toServeAgain',
         lat: -101.7452728263295,
         lng: 38.4278791727553
       },
       {
-        name: '一片狼藉',
+        name: 'sideQuests.remnants',
         lat: -109.83325688011327,
         lng: 37.324215951028194
       },
       {
-        name: '絕望時刻',
+        name: 'sideQuests.inDesperateTimes',
         lat: -101.4974220453984,
         lng: 38.50018824401947
       },
