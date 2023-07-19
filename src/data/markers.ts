@@ -828,7 +828,7 @@ export const markers: Markers = {
       },
       {
         name: 'coordinates.altarOfLilith',
-        reward: '獎勵: +5古幣',
+        reward: 'rewards.pulsFiveObolsMax',
         lat: -96.02879622094608,
         lng: 91.59059815666257
       },
@@ -1333,688 +1333,688 @@ export const markers: Markers = {
         lng: 95.85005898797382
       },
       {
-        name: '神聖藏骨堂',
-        reward: '獎勵: 絕情狂怒之 精華',
+        name: 'dungeons.hallowedOssuary',
+        reward: 'rewards.ofUnrelentingFuryAspect',
         job: 'jobs.barbarian',
         lat: -77.52339019013802,
         lng: 114.10590517431358
       },
       {
-        name: '黑色收容所',
-        reward: '獎勵: 苦痛之 精華',
+        name: 'dungeons.blackAsylum',
+        reward: 'rewards.ofTormentAspect',
         job: 'jobs.necromancer',
         lat: -71.56410054108002,
         lng: 110.08484337469775
       },
       {
-        name: '荒棄採石場',
-        reward: '獎勵: 環繞刀刃之 精華',
+        name: 'dungeons.forsakenQuarry',
+        reward: 'rewards.ofEncirclingBladesAspect',
         job: 'jobs.rogue',
         lat: -69.19515615198563,
         lng: 104.81582420259178
       },
       {
-        name: '白霜之歿',
-        reward: '獎勵: 浴血 精華',
+        name: 'dungeons.hoarfrostDemise',
+        reward: 'rewards.bloodBathedAspect',
         job: 'jobs.necromancer',
         lat: -67.12821085421714,
         lng: 119.47792427400033
       },
       {
-        name: '穹頂',
-        reward: '獎勵: 充能 精華',
+        name: 'dungeons.zenith',
+        reward: 'rewards.rechargingAspect',
         job: 'jobs.sorcerer',
         lat: -68.25934490079383,
         lng: 126.51900167972664
       },
       {
-        name: '亡者浚灘',
-        reward: '獎勵: 穿刺冰寒之 精華',
+        name: 'dungeons.deadMansDredge',
+        reward: 'rewards.ofPiercingColdAspect',
         job: 'jobs.sorcerer',
         lat: -88.36701652324578,
         lng: 120.59852342891556
       },
       {
-        name: '古拉恩運河',
-        reward: '獎勵: 欺詐師 精華',
+        name: 'dungeons.guulrahnCanals',
+        reward: 'rewards.trickstersAspect',
         job: 'jobs.rogue',
         lat: -75.51356870839535,
         lng: 70.35879924429832
       },
       {
-        name: '古拉恩貧民窟',
-        reward: '獎勵: 分裂 精華',
+        name: 'dungeons.guulrahnSlums',
+        reward: 'rewards.splinteringAspect',
         job: 'jobs.necromancer',
         lat: -74.46459986186821,
         lng: 72.37709121957596
       },
       {
-        name: '呢喃秘庫',
-        reward: '獎勵: 動盪灌注之 精華',
+        name: 'dungeons.whisperingVault',
+        reward: 'rewards.ofUnstableImbuementsAspect',
         job: 'jobs.rogue',
         lat: -74.14000460401739,
         lng: 82.95247697819232
       },
       {
-        name: '幻流秘城',
-        reward: '獎勵: 貪婪 精華',
+        name: 'dungeons.shiftingCity',
+        reward: 'rewards.ravenousAspect',
         job: 'jobs.rogue',
         lat: -85.47953872214993,
         lng: 73.56069204595111
       },
       {
-        name: '暗淡洞穴',
-        reward: '獎勵: 元素師 精華',
+        name: 'dungeons.pallidDelve',
+        reward: 'rewards.elementalistsAspect',
         job: 'jobs.sorcerer',
         lat: -88.8949478193691,
         lng: 75.64060136423673
       },
       {
-        name: '苦痛廢墟',
-        reward: '獎勵: 飢渴難饜之 精華',
+        name: 'dungeons.tormentedRuins',
+        reward: 'rewards.ofTheUnsatiatedAspect',
         job: 'jobs.druid',
         lat: -84.67930447010765,
         lng: 90.52163150762352
       },
       {
-        name: '失落秘庫',
-        reward: '獎勵: 保衛者之 精華',
+        name: 'dungeons.lostArchives',
+        reward: 'rewards.ofTheProtectorAspect',
         lat: -90.08939237684808,
         lng: 87.20245368691823
       },
       {
-        name: '遭褻瀆的墓室',
-        reward: '獎勵: 淬鍊打擊之 精華',
+        name: 'dungeons.defiledCatacomb',
+        reward: 'rewards.ofTemperingBlowsAspect',
         job: 'jobs.barbarian',
         lat: -89.05845332681801,
         lng: 92.83684720893544
       },
       {
-        name: '卡利貝爾的礦井',
-        reward: '獎勵: 不懈武師之 精華',
+        name: 'dungeons.calibelsMine',
+        reward: 'rewards.ofTheRelentlessArmsmasterAspect',
         job: 'jobs.barbarian',
         lat: -23.942311334162255,
         lng: 80.19321583558562
       },
       {
-        name: '嚎叫獸穴',
-        reward: '獎勵: 箭矢風暴之 精華',
+        name: 'dungeons.howlingWarren',
+        reward: 'rewards.ofArrowStormsAspect',
         job: 'jobs.rogue',
         lat: -36.2819983302016,
         lng: 77.9616783711216
       },
       {
-        name: '沉沒遺跡',
-        reward: '獎勵: 先祖力量之 精華',
+        name: 'dungeons.sunkenRuins',
+        reward: 'rewards.ofAncestralForceAspect',
         job: 'jobs.barbarian',
         lat: -22.636329506196507,
         lng: 86.69101795843302
       },
       {
-        name: '舊石堆',
-        reward: '獎勵: 躁進者 精華',
+        name: 'dungeons.oldstones',
+        reward: 'rewards.edgemastersAspect',
         lat: -49.421124146084836,
         lng: 103.56857372122606
       },
       {
-        name: '薩拉特的巢穴',
-        reward: '獎勵: 雪幕 精華',
+        name: 'dungeons.saratsLair',
+        reward: 'rewards.snowveiledAspect',
         job: 'jobs.sorcerer',
         lat: -55.34836082359248,
         lng: 92.77708545512891
       },
       {
-        name: '蟲巢',
-        reward: '獎勵: 腫脹詛咒之 精華',
+        name: 'dungeons.hive',
+        reward: 'rewards.ofSwellingCurseAspect',
         job: 'jobs.necromancer',
         lat: -56.37382022958914,
         lng: 111.1965474829646
       },
       {
-        name: '低語松林',
-        reward: '獎勵: 彈道 精華',
+        name: 'dungeons.whisperingPines',
+        reward: 'rewards.ballisticAspect',
         job: 'jobs.druid',
         lat: -52.03809607882108,
         lng: 123.8336695672108
       },
       {
-        name: '馬達斯守望',
-        reward: '獎勵: 蓄能 精華',
+        name: 'dungeons.madduxWatch',
+        reward: 'rewards.chargedAspect',
         job: 'jobs.sorcerer',
         lat: -59.60931434771092,
         lng: 107.65517021883082
       },
       {
-        name: '野性巢穴',
-        reward: '獎勵: 流沙之 精華',
+        name: 'dungeons.feralsDen',
+        reward: 'rewards.ofQuicksandAspect',
         job: 'jobs.druid',
         lat: -35.0184395528172,
         lng: 113.51565108546058
       },
       {
-        name: '扭曲穴坑',
-        reward: '獎勵: 暗影切割者 精華',
+        name: 'dungeons.twistedHollow',
+        reward: 'rewards.shadowslicerAspect',
         job: 'jobs.rogue',
         lat: -36.3194131039782,
         lng: 111.22532384248603
       },
       {
-        name: '古代水庫',
-        reward: '獎勵: 遠古回聲之 精華',
+        name: 'dungeons.ancientReservoir',
+        reward: 'rewards.ofAncestralEchoesAspect',
         job: 'jobs.barbarian',
         lat: -103.44723258683953,
         lng: 118.93674021069768
       },
       {
-        name: '鬼魅避難所',
-        reward: '獎勵: 爭戰者 精華',
+        name: 'dungeons.hauntedRefuge',
+        reward: 'rewards.brawlersAspect',
         job: 'jobs.barbarian',
         lat: -109.03599813370207,
         lng: 115.13790730830718
       },
       {
-        name: '撒卡拉鐘樓',
-        reward: '獎勵: 恐懼熊化之 精華',
+        name: 'dungeons.belfryZakara',
+        reward: 'rewards.ofTheUrsineHorrorAspect',
         job: 'jobs.druid',
         lat: -117.25033806522427,
         lng: 124.50969311248795
       },
       {
-        name: '巫水',
-        reward: '獎勵: 奇才 精華',
+        name: 'dungeons.witchwater',
+        reward: 'rewards.prodigysAspect',
         job: 'jobs.sorcerer',
         lat: -121.72800267272905,
         lng: 101.78063989110409
       },
       {
-        name: '無面聖壇',
-        reward: '獎勵: 不撓指揮官 精華',
+        name: 'dungeons.facelessShrine',
+        reward: 'rewards.unyieldingCommandersAspect',
         job: 'jobs.necromancer',
         lat: -127.72544360685848,
         lng: 113.93033109129698
       },
       {
-        name: '艾瑞督遺址',
-        reward: '獎勵: 獻祭 精華',
+        name: 'dungeons.ruinsOfEridu',
+        reward: 'rewards.sacrificialAspect',
         job: 'jobs.necromancer',
         lat: -125.39155715539727,
         lng: 91.39961973789396
       },
       {
-        name: '歌亞遺址',
-        reward: '獎勵: 籠罩 精華',
+        name: 'dungeons.ghoaRuins',
+        reward: 'rewards.enshroudingAspect',
         job: 'jobs.rogue',
         lat: -132.58073228544072,
         lng: 103.41511943964301
       },
       {
-        name: '海獸之喉',
-        reward: '獎勵: 虹吸飲食之 精華',
+        name: 'dungeons.leviathansMaw',
+        reward: 'rewards.ofSiphonedVictualsAspect',
         job: 'jobs.rogue',
         lat: -132.3620178913325,
         lng: 97.73477799454145
       },
       {
-        name: '墨根工坊',
-        reward: '獎勵: 地擊者 精華',
+        name: 'dungeons.maugansWorks',
+        reward: 'rewards.earthstrikersAspect',
         job: 'jobs.barbarian',
         lat: -118.17701657636036,
         lng: 94.66890282673712
       },
       {
-        name: '目盲洞穴',
-        reward: '獎勵: 暴風雨之 精華',
+        name: 'dungeons.blindBurrows',
+        reward: 'rewards.ofTheTempestAspect',
         job: 'jobs.druid',
         lat: -120.02321470884692,
         lng: 88.33259587201253
       },
       {
-        name: '廢棄的礦道',
-        reward: '獎勵: 懲戒之 精華',
+        name: 'dungeons.abandonedMineworks',
+        reward: 'rewards.ofRetributionAspect',
         lat: -113.78066281580313,
         lng: 56.01217879093893
       },
       {
-        name: '西洛克洞穴',
-        reward: '獎勵: 迴盪狂怒之 精華',
+        name: 'dungeons.siroccoCaverns',
+        reward: 'rewards.ofEchoingFuryAspect',
         job: 'jobs.barbarian',
         lat: -94.34180236994669,
         lng: 57.26582074622091
       },
       {
-        name: '詛咒大廳',
-        reward: '獎勵: 不從之 精華',
+        name: 'dungeons.hallsOfTheDamned',
+        reward: 'rewards.ofDisobedienceAspect',
         lat: -103.54666161163954,
         lng: 73.08192057817139
       },
       {
-        name: '密議',
-        reward: '獎勵: 換形毒債之 精華',
+        name: 'dungeons.conclave',
+        reward: 'rewards.ofTheChangelingsDebtAspect',
         job: 'jobs.druid',
         lat: -113.97068272986537,
         lng: 35.90913773521713
       },
       {
-        name: '哈坎避難所',
-        reward: '獎勵: 無情狂戰士 精華',
+        name: 'dungeons.hakansRefuge',
+        reward: 'rewards.relentlessBerserkersAspect',
         job: 'jobs.barbarian',
         lat: -119.19885234678651,
         lng: 30.427668326439672
       },
       {
-        name: '遺忘廢墟',
-        reward: '獎勵: 鋼鐵之血 精華',
+        name: 'dungeons.forgottenRuins',
+        reward: 'rewards.ironBloodAspect',
         job: 'jobs.barbarian',
         lat: -103.46873871664812,
         lng: 25.781214058330022
       },
       {
-        name: '腐化石窟',
-        reward: '獎勵: 纏繞觸鬚之 精華',
+        name: 'dungeons.corruptedGrotto',
+        reward: 'rewards.ofGraspingVeinsAspect',
         job: 'jobs.necromancer',
         lat: -112.15144091076903,
         lng: 26.378124705270892
       },
       {
-        name: '腐臭水層',
-        reward: '獎勵: 堅定不移之 精華',
+        name: 'dungeons.putridAquifer',
+        reward: 'rewards.ofTheUnwaveringAspect',
         job: 'jobs.sorcerer',
         lat: -106.32466437387413,
         lng: 33.820657362048465
       },
       {
-        name: '奧杜爾洞穴',
-        reward: '獎勵: 詛咒者之 精華',
+        name: 'dungeons.uldursCave',
+        reward: 'rewards.ofTheDamnedAspect',
         job: 'jobs.necromancer',
         lat: -106.48454624575254,
         lng: 26.692337810055534
       },
       {
-        name: '異端收容所',
-        reward: '獎勵: 精銳爭戰者 精華',
+        name: 'dungeons.hereticsAsylum',
+        reward: 'rewards.veteranBrawlersAspect',
         job: 'jobs.barbarian',
         lat: -109.54254114182393,
         lng: 15.771753552369432
       },
       {
-        name: '西弗塔廢墟',
-        reward: '獎勵: 風擊者 精華',
+        name: 'dungeons.shivtaRuins',
+        reward: 'rewards.windStrikerAspect',
         lat: -90.73012774288524,
         lng: 41.75633493946803
       },
       {
-        name: '煉獄',
-        reward: '獎勵: 復仇心切 精華',
+        name: 'dungeons.inferno',
+        reward: 'rewards.vengefulAspect',
         job: 'jobs.rogue',
         lat: -92.6675059736699,
         lng: 51.16346529986755
       },
       {
-        name: '聖徒之墓',
-        reward: '獎勵: 煽火 精華',
+        name: 'dungeons.tombOfTheSaints',
+        reward: 'rewards.incendiaryAspect',
         job: 'jobs.sorcerer',
         lat: -88.23836273026751,
         lng: 30.083029449510093
       },
       {
-        name: '沉沒書庫',
-        reward: '獎勵: 控制之 精華',
+        name: 'dungeons.sunkenLibrary',
+        reward: 'rewards.ofControlAspect',
         job: 'jobs.sorcerer',
         lat: -99.82306672821802,
         lng: 35.249961761737566
       },
       {
-        name: '崩塌寶庫',
-        reward: '獎勵: 颶風力量之 精華',
+        name: 'dungeons.collapsedVault',
+        reward: 'rewards.ofCyclonicForceAspect',
         job: 'jobs.druid',
         lat: -98.09141083230105,
         lng: 45.96752099774383
       },
       {
-        name: '廢棄的地下通道',
-        reward: '獎勵: 折磨 精華',
+        name: 'dungeons.desertedUnderpass',
+        reward: 'rewards.torturousAspect',
         job: 'jobs.necromancer',
         lat: -116.17270419910292,
         lng: 40.21813985282833
       },
       {
-        name: '無盡大門',
-        reward: '獎勵: 狂暴人獸之 精華',
+        name: 'dungeons.endlessGates',
+        reward: 'rewards.ofTheRampagingWerebeastAspect',
         job: 'jobs.druid',
         lat: -109.39868575572069,
         lng: 77.01488607141201
       },
       {
-        name: '信仰棱堡',
-        reward: '獎勵: 巧技射擊 精華',
+        name: 'dungeons.bastionOfFaith',
+        reward: 'rewards.trickshotAspect',
         job: 'jobs.rogue',
         lat: -106.36526087644432,
         lng: 77.16916505930682
       },
       {
-        name: '大地之殤',
-        reward: '獎勵: 焦黑肢體之 精華',
+        name: 'dungeons.earthenWound',
+        reward: 'rewards.ofSingedExtremitiesAspect',
         job: 'jobs.sorcerer',
         lat: -121.56264115681722,
         lng: 70.21615450615886
       },
       {
-        name: '失落堡壘',
-        reward: '獎勵: 偏折屏障之 精華',
+        name: 'dungeons.lostKeep',
+        reward: 'rewards.ofTheDeflectingBarrierAspect',
         lat: -108.102072351425,
         lng: 73.67859559473746
       },
       {
-        name: '異教徒要塞',
-        reward: '獎勵: 麻木憤怒之 精華',
+        name: 'dungeons.heathensKeep',
+        reward: 'rewards.ofNumbingWrathAspect',
         job: 'jobs.barbarian',
         lat: -94.84578231876262,
         lng: 96.31210069914333
       },
       {
-        name: '聖光避難所',
-        reward: '獎勵: 布爾凱索之 精華',
+        name: 'dungeons.lightsRefuge',
+        reward: 'rewards.ofBulKathosAspect',
         job: 'jobs.barbarian',
         lat: -94.76111298031068,
         lng: 90.23749072942168
       },
       {
-        name: '霜痕洞窟',
-        reward: '獎勵: 深邃黑暗之 精華',
+        name: 'dungeons.rimescarCavern',
+        reward: 'rewards.ofPlungingDarknessAspect',
         job: 'jobs.necromancer',
         lat: -75.00319584154045,
         lng: 118.83957213489296
       },
       {
-        name: '愛妮卡的礦坑',
-        reward: '獎勵: 風暴爪 精華',
+        name: 'dungeons.anicasClaim',
+        reward: 'rewards.stormclawsAspect',
         job: 'jobs.druid',
         lat: -75.34629226311701,
         lng: 116.34854672018969
       },
       {
-        name: '邪教徒庇難所',
-        reward: '獎勵: 焰行者 精華',
+        name: 'dungeons.cultistRefuge',
+        reward: 'rewards.flamewalkersAspect',
         job: 'jobs.sorcerer',
         lat: -79.67067413994492,
         lng: 90.80344543587431
       },
       {
-        name: '浸沒深淵',
-        reward: '獎勵: 賦能收割者之 精華',
+        name: 'dungeons.floodedDepths',
+        reward: 'rewards.ofEmpoweringReaperAspect',
         job: 'jobs.necromancer',
         lat: -13.128852503690105,
         lng: 79.49663354010791
       },
       {
-        name: '根底深處',
-        reward: '獎勵: 期望之 精華',
+        name: 'dungeons.underroot',
+        reward: 'rewards.ofTheExpectantAspect',
         lat: -40.68174004271497,
         lng: 66.85359124269506
       },
       {
-        name: '妖邪地洞',
-        reward: '獎勵: 靜電糾纏之 精華',
+        name: 'dungeons.wretchedDelve',
+        reward: 'rewards.ofStaticClingAspect',
         job: 'jobs.sorcerer',
         lat: -35.793367276769615,
         lng: 67.9831443518524
       },
       {
-        name: '伊沙利聖殿',
-        reward: '獎勵: 針焰 精華',
+        name: 'dungeons.yshariSanctum',
+        reward: 'rewards.needleflareAspect',
         lat: -101.36641141627672,
         lng: 38.891658657938905
       },
       {
-        name: '叛徒藏身處',
-        reward: '獎勵: 腐敗之 精華',
+        name: 'dungeons.renegadesRetreat',
+        reward: 'rewards.ofCorruptionAspect',
         job: 'jobs.rogue',
         lat: -108.63427541305822,
         lng: 46.124480281151904
       },
       {
-        name: '聖教軍大教堂',
-        reward: '獎勵: 風暴轉移 精華',
+        name: 'dungeons.crusadersCathedral',
+        reward: 'rewards.stormshiftersAspect',
         job: 'jobs.druid',
         lat: -105.10167263860811,
         lng: 40.77620094172542
       },
       {
-        name: '卡爾蒂姆監獄',
-        reward: '獎勵: 搶得先機 精華',
+        name: 'dungeons.prisonOfCaldeum',
+        reward: 'rewards.opportunistsAspect',
         job: 'jobs.rogue',
         lat: -109.83325688011327,
         lng: 37.324215951028194
       },
       {
-        name: '雷斯溫荒野',
-        reward: '獎勵: 靜心之 精華',
+        name: 'dungeons.raethwindWilds',
+        reward: 'rewards.ofInnerCalmAspect',
         lat: -39.666267729876004,
         lng: 90.4970670410515
       },
       {
-        name: '懺悔石洞',
-        reward: '獎勵: 死亡之願 精華',
+        name: 'dungeons.penitentCairns',
+        reward: 'rewards.deathWishAspect',
         job: 'jobs.barbarian',
         lat: -31.733275112973068,
         lng: 91.4927231897335
       },
       {
-        name: '遺忘者秘庫',
-        reward: '獎勵: 安魂曲 精華',
+        name: 'dungeons.vaultOfTheForsaken',
+        reward: 'rewards.requiemAspect',
         job: 'jobs.necromancer',
         lat: -27.396431465036894,
         lng: 97.14640894868677
       },
       {
-        name: '堅毅兵營',
-        reward: '獎勵: 精力 精華',
+        name: 'dungeons.steadfastBarracks',
+        reward: 'rewards.vigorousAspect',
         job: 'jobs.druid',
         lat: -109.97690604305397,
         lng: 96.92438622803935
       },
       {
-        name: '阿克漢之握',
-        reward: '獎勵: 荒疫之力 精華',
+        name: 'dungeons.akkhansGrasp',
+        reward: 'rewards.blightedAspect',
         job: 'jobs.necromancer',
         lat: -109.37293732085396,
         lng: 96.07113918712204
       },
       {
-        name: '鐵堡',
-        reward: '獎勵: 迅血 精華',
+        name: 'dungeons.ironHold',
+        reward: 'rewards.fastbloodAspect',
         job: 'jobs.necromancer',
         lat: -108.45503802435208,
         lng: 98.26241331129356
       },
       {
-        name: '滅絕之地',
-        reward: '獎勵: 同悲之 精華',
+        name: 'dungeons.oblivion',
+        reward: 'rewards.ofSharedMiseryAspect',
         lat: -93.10496422233814,
         lng: 105.65083934325958
       },
       {
-        name: '迦倫堡',
-        reward: '獎勵: 兇蠻旋風斬之 精華',
+        name: 'dungeons.garanHold',
+        reward: 'rewards.ofTheDireWhirlwindAspect',
         job: 'jobs.barbarian',
         lat: -40.53909253513524,
         lng: 105.42033392911969
       },
       {
-        name: '露斑長眠處',
-        reward: '獎勵: 詐欺 精華',
+        name: 'dungeons.lubansRest',
+        reward: 'rewards.cheatsAspect',
         job: 'jobs.rogue',
         lat: -42.19494668858984,
         lng: 99.15392083431766
       },
       {
-        name: '多姆海涅隧道',
-        reward: '獎勵: 高效之 精華',
+        name: 'dungeons.domhainneTunnels',
+        reward: 'rewards.ofEfficiencyAspect',
         job: 'jobs.sorcerer',
         lat: -39.86008804221949,
         lng: 95.36751743419744
       },
       {
-        name: '水手藏身處',
-        reward: '獎勵: 超載 精華',
+        name: 'dungeons.marinersRefuge',
+        reward: 'rewards.overchargedAspect',
         job: 'jobs.druid',
         lat: -33.5785010505505,
         lng: 108.45675530007506
       },
       {
-        name: '科瓦拉壁壘',
-        reward: '獎勵: 爆破陷阱 精華',
+        name: 'dungeons.korValarRamparts',
+        reward: 'rewards.blastTrappersAspect',
         job: 'jobs.rogue',
         lat: -64.73890929293407,
         lng: 126.16505540299279
       },
       {
-        name: '奧德林地',
-        reward: '獎勵: 復生之 精華',
+        name: 'dungeons.aldurwood',
+        reward: 'rewards.ofReanimationAspect',
         job: 'jobs.necromancer',
         lat: -42.38281598967122,
         lng: 107.74786131751446
       },
       {
-        name: '賈拉爾守望',
-        reward: '獎勵: 刃舞者 精華',
+        name: 'dungeons.jalalsVigil',
+        reward: 'rewards.bladedancersAspect',
         job: 'jobs.rogue',
         lat: -38.09696838378804,
         lng: 120.45605541355718
       },
       {
-        name: '毒蛇巢穴',
-        reward: '獎勵: 三重詛咒之 精華',
+        name: 'dungeons.serpentsLair',
+        reward: 'rewards.ofThreeCursesAspect',
         job: 'jobs.sorcerer',
         lat: -115.04407429092859,
         lng: 103.76700395059744
       },
       {
-        name: '暗影墜落處',
-        reward: '獎勵: 分岔散射之 精華',
+        name: 'dungeons.shadowedPlunge',
+        reward: 'rewards.ofBranchingVolleysAspect',
         job: 'jobs.rogue',
         lat: -122.66505126289616,
         lng: 99.77262729092675
       },
       {
-        name: '惡魔烙痕',
-        reward: '獎勵: 怪異叛逆之 精華',
+        name: 'dungeons.demonsWake',
+        reward: 'rewards.ofUncannyTreacheryAspect',
         job: 'jobs.rogue',
         lat: -54.97527366209104,
         lng: 83.36706862263819
       },
       {
-        name: '破碎壁壘',
-        reward: '獎勵: 魂行者 精華',
+        name: 'dungeons.brokenBulwark',
+        reward: 'rewards.ghostwalkerAspect',
         lat: -58.412129968215226,
         lng: 81.54918028112084
       },
       {
-        name: '腐臭陵墓',
-        reward: '獎勵: 雪衛 精華',
+        name: 'dungeons.fetidMausoleum',
+        reward: 'rewards.snowguardsAspect',
         job: 'jobs.sorcerer',
         lat: -94.7981153077622,
         lng: 111.39645040217843
       },
       {
-        name: '深埋大廳',
-        reward: '獎勵: 捷迅 精華',
+        name: 'dungeons.buriedHalls',
+        reward: 'rewards.rapidAspect',
         lat: -79.62845731252612,
         lng: 70.68258483305885
       },
       {
-        name: '目盲之道',
-        reward: '獎勵: 爆裂骸骨之 精華',
+        name: 'dungeons.pathOfTheBlind',
+        reward: 'rewards.ofBurstingBonesAspect',
         job: 'jobs.necromancer',
         lat: -55.656016321662555,
         lng: 70.549571486489
       },
       {
-        name: '獰笑迷宮',
-        reward: '獎勵: 靜風之 精華',
+        name: 'dungeons.grinningLabyrinth',
+        reward: 'rewards.ofTheCalmBreezeAspect',
         job: 'jobs.druid',
         lat: -69.19786651355055,
         lng: 68.42524584255516
       },
       {
-        name: '背叛者行列',
-        reward: '獎勵: 強效鮮血之 精華',
+        name: 'dungeons.betrayersRow',
+        reward: 'rewards.ofPotentBloodAspect',
         job: 'jobs.necromancer',
         lat: -84.33043379997974,
         lng: 81.7413368517634
       },
       {
-        name: '柵欄圍場',
-        reward: '獎勵: 墜石 精華',
+        name: 'dungeons.stockades',
+        reward: 'rewards.crashstoneAspect',
         job: 'jobs.druid',
         lat: -41.60276214710689,
         lng: 86.81039419706183
       },
       {
-        name: '不潔之原',
-        reward: '獎勵: 鋼鐵戰士之 精華',
+        name: 'dungeons.carrionFields',
+        reward: 'rewards.ofTheIronWarriorAspect',
         job: 'jobs.barbarian',
         lat: -68.20970403952332,
         lng: 37.204692443415155
       },
       {
-        name: '康鐸神殿',
-        reward: '獎勵: 躍動引導之 精華',
+        name: 'dungeons.komdorTemple',
+        reward: 'rewards.ofTheBoundingConduitAspect',
         job: 'jobs.sorcerer',
         lat: -77.8206461487253,
         lng: 29.499814818103985
       },
       {
-        name: '先祖輓歌',
-        reward: '獎勵: 烈爆暗影之 精華',
+        name: 'dungeons.ancientsLament',
+        reward: 'rewards.ofVolatileShadowsAspect',
         job: 'jobs.rogue',
         lat: -79.36602360795769,
         lng: 67.07608522409204
       },
       {
-        name: '勇士之歿',
-        reward: '獎勵: 晦暗之 精華',
+        name: 'dungeons.championsDemise',
+        reward: 'rewards.ofTheUmbralAspect',
         lat: -88.51791295732747,
         lng: 62.73895473049009
       },
       {
-        name: '封印的秘庫',
-        reward: '獎勵: 癒傷石之 精華',
+        name: 'dungeons.sealedArchives',
+        reward: 'rewards.ofMendingStoneAspect',
         job: 'jobs.druid',
         lat: -83.78783119886371,
         lng: 57.74420931464158
       },
       {
-        name: '浴血峭壁',
-        reward: '獎勵: 牧人 精華',
+        name: 'dungeons.bloodsoakedCrag',
+        reward: 'rewards.shepherdsAspect',
         job: 'jobs.druid',
         lat: -78.43433682001685,
         lng: 60.066287750619296
       },
       {
-        name: '納骨室',
-        reward: '獎勵: 永久踐踏之 精華',
+        name: 'dungeons.charnelHouse',
+        reward: 'rewards.ofPerpetualStompingAspect',
         job: 'jobs.barbarian',
         lat: -85.87180463776834,
         lng: 54.772380120175995
       },
       {
-        name: '消散回聲',
-        reward: '獎勵: 化形者 精華',
+        name: 'dungeons.fadingEcho',
+        reward: 'rewards.skinwalkersAspect',
         job: 'jobs.druid',
         lat: -93.77521896107149,
         lng: 79.40064361617716
       },
       {
-        name: '血紅禮拜堂',
-        reward: '獎勵: 賦能 精華',
+        name: 'dungeons.sanguineChapel',
+        reward: 'rewards.energizingAspect',
         job: 'jobs.rogue',
         lat: -74.25834723886825,
         lng: 131.5211105447874
       },
       {
         name: 'dungeons.immortalEmanation',
-        reward: '獎勵: 割裂 精華',
+        reward: 'rewards.mangledAspect',
         job: 'jobs.druid',
         lat: -78.8698506788668,
         lng: 111.26255344170309
@@ -2632,7 +2632,7 @@ export const markers: Markers = {
         lng: 53.48748768643729
       },
       {
-        name: 'sideQuests.currenciesfromAfar',
+        name: 'sideQuests.currenciesFromAfar',
         lat: -92.90893437611021,
         lng: 53.44103904880649
       },
