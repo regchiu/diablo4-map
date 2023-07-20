@@ -307,7 +307,7 @@ onMounted(() => {
   overflow: hidden;
 
   &.active {
-    width: 360px;
+    width: 300px;
   }
 
   &__icon {
