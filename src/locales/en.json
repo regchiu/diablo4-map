@@ -1,8 +1,4 @@
 {
-  "locales": {
-    "en": "English",
-    "zh-TW": "繁體中文"
-  },
   "markers": {
     "altarOfLilith": "Altars of Lilith",
     "worldBoss": "World Boss",

@@ -161,8 +161,8 @@ function localeControl() {
     const select = L.DomUtil.create('select')
     for (const locale of SUPPORT_LOCALES) {
       const option = L.DomUtil.create('option')
-      option.text = t(`locales.${locale}`)
-      option.value = locale
+      option.text = locale.title
+      option.value = locale.value
       select.add(option)
     }
     select.value = locale.value
