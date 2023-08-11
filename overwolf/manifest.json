@@ -1,0 +1,122 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Diablo 4 Map-DEV",
+    "author": "Leon Machens",
+    "version": "0.6.0",
+    "minimum-overwolf-version": "0.218.0",
+    "description": "Diablo 4 Map",
+    "dock_button_title": "Diablo 4 Map",
+    "icon": "icons/iconMouseOver.png",
+    "icon_gray": "icons/iconMouseNormal.png",
+    "launcher_icon": "icons/launcherIcon.ico"
+  },
+  "permissions": [
+    "Hotkeys",
+    "GameInfo",
+    "FileSystem",
+    "DesktopStreaming",
+    "Clipboard"
+  ],
+  "data": {
+    "start_window": "controller",
+    "windows": {
+      "controller": {
+        "file": "controller.html",
+        "debug_url": "http://localhost:3666/controller",
+        "is_background_page": true
+      },
+      "desktop": {
+        "file": "app.html",
+        "debug_url": "http://localhost:3666/app",
+        "resizable": true,
+        "override_on_update": true,
+        "desktop_only": true,
+        "transparent": true,
+        "native_window": true,
+        "size": {
+          "width": 1200,
+          "height": 800
+        },
+        "min_size": {
+          "width": 768,
+          "height": 420
+        },
+        "allow_local_file_access": true,
+        "popup_blocker": true,
+        "mute": true,
+        "keep_window_location": true,
+        "disable_restore_animation": true
+      },
+      "overlay": {
+        "file": "app.html",
+        "debug_url": "http://localhost:3666/app",
+        "resizable": true,
+        "override_on_update": true,
+        "transparent": true,
+        "in_game_only": true,
+        "focus_game_takeover": "ReleaseOnLostFocus",
+        "focus_game_takeover_release_hotkey": "toggle_app",
+        "size": {
+          "width": 1200,
+          "height": 800
+        },
+        "min_size": {
+          "width": 768,
+          "height": 420
+        },
+        "allow_local_file_access": true,
+        "popup_blocker": true,
+        "mute": true,
+        "disable_restore_animation": true,
+        "restrict_to_game_bounds": true
+      }
+    },
+    "game_targeting": {
+      "type": "dedicated",
+      "game_ids": [22700]
+    },
+    "game_events": [22700],
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [22700]
+        },
+        "start_minimized": false
+      }
+    ],
+    "hotkeys": {
+      "toggle_app": {
+        "title": "Show/Hide App",
+        "action-type": "custom",
+        "default": "F6"
+      },
+      "zoom_in_app": {
+        "title": "Zoom in",
+        "action-type": "custom",
+        "default": "F7"
+      },
+      "zoom_out_app": {
+        "title": "Zoom out",
+        "action-type": "custom",
+        "default": "F8"
+      }
+    },
+    "protocol_override_domains": {
+      "googlesyndication": "http"
+    },
+    "force_browser": "user",
+    "externally_connectable": {
+      "matches": [
+        "https://*.patreon.com",
+        "https://diablo4.th.gl",
+        "http://localhost:3666"
+      ]
+    },
+    "url_protocol": {
+      "scheme": "overwolf-extension"
+    }
+  }
+}

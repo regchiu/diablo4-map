@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: none;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9c9c9;
+  opacity: 0.5;
+}
+
+.app .drawer {
+  @apply top-[30px];
+}
+
+.leaflet-tooltip {
+  @apply !text-center !rounded !bg-neutral-800 border !border-gray-600 !text-white !p-2 min-w-[200px];
+}
+
+.leaflet-tooltip-top:before {
+  @apply !border-t-neutral-900;
+}
+
+.leaflet-tooltip.leaflet-interactive {
+  cursor: initial !important;
+}
+
+@layer components {
+  .category-title {
+    @apply text-sm text-gray-400;
+  }
+
+  .hotkey {
+    @apply cursor-pointer py-1 px-2 rounded text-sm text-gray-400 hover:bg-neutral-700 bg-neutral-800 border border-neutral-400 hover:border-neutral-300 font-mono;
+  }
+}
+
+.text-shadow {
+  text-shadow: 0 0 2px black, 0 0 2px black;
+}
+
+.locked > :not(.lock) {
+  @apply pointer-events-none;
+}
+
+*[data-radix-popper-content-wrapper] {
+  @apply !z-[11000];
+}

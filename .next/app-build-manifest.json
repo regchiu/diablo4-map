@@ -1,0 +1,15 @@
+{
+  "pages": {
+    "/[lang]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lang]/page.js"
+    ],
+    "/[lang]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[lang]/layout.css",
+      "static/chunks/app/[lang]/layout.js"
+    ]
+  }
+}
