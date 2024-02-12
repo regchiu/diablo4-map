@@ -51,5 +51,6 @@
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }
