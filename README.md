@@ -6,4 +6,4 @@
 
 # Diablo4 Map
 
-Diablo4 map built with Leaflet.
+Built with [Leaflet](https://leafletjs.com/).
