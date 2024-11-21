@@ -10,7 +10,7 @@
     "lint": "eslint --fix src",
     "lint:style": "stylelint --fix **/*.{scss,vue}",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.3",
@@ -31,7 +31,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-vue": "^9.31.0",
     "globals": "^15.12.0",
-    "husky": "^8.0.3",
+    "husky": "^9.1.7",
     "inquirer": "8",
     "lint-staged": "^13.2.3",
     "postcss-html": "^1.5.0",
