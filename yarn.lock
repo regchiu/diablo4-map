@@ -971,10 +971,10 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
-"@types/leaflet-fullscreen@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@types/leaflet-fullscreen/-/leaflet-fullscreen-1.0.6.tgz#ffa2644fa80b9c1cfeb5aa8fbb70daaf1d527520"
-  integrity sha512-Kd0T+YDJgtiY02iwjbt2zntGdzGZ+/4MspAJchu5WXz1uoE4EE1K4zmVAOjKFTX/fwzA6OTZBmefVyE3H+HSYg==
+"@types/leaflet-fullscreen@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@types/leaflet-fullscreen/-/leaflet-fullscreen-1.0.9.tgz#e24cd9987b45f70ce2ce964c5678cebc0ff1c399"
+  integrity sha512-fureyKU1+ye+xkGFh67layhTX/wO6ZuMrYuBhJBHkek6chdzlDgE8wZNG/jjioXrEnNHdHH+jiIo5oeuF5y2Hw==
   dependencies:
     "@types/leaflet" "*"
 

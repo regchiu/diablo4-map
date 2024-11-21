@@ -13,8 +13,6 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@types/leaflet": "^1.9.3",
-    "@types/leaflet-fullscreen": "^1.0.6",
     "leaflet": "^1.9.4",
     "leaflet-fullscreen": "^1.0.2",
     "meow": "^9.0.0",
@@ -22,6 +20,8 @@
     "vue-i18n": "^10.0.4"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.3",
+    "@types/leaflet-fullscreen": "^1.0.9",
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
     "@commitlint/cz-commitlint": "^19.5.0",
