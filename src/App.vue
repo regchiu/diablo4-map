@@ -271,7 +271,11 @@ onMounted(() => {
   background: transparent;
   border: 0;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow:
+    -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
   box-shadow: none;
   font-weight: bold;
 }
